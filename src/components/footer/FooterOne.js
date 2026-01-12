@@ -12,7 +12,7 @@ function FooterOne() {
                         <div className="col-lg-5 col-md-12">
                             <div className="logo-area">
                                 <Link href="/#" className="logo">
-                                    <img src="/assets/images/logo/logo-1.svg" alt="logo" />
+                                    <img src="/assets/images/logo/logo3.png" alt="logo" style={{ width: '70px', height: '70px' }} />
                                 </Link>
                                 <p className="disc">
                                     Luminous is a leading IT solutions company that provides

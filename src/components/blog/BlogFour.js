@@ -12,7 +12,7 @@ function BlogFour() {
                     <div className="row g-5">
                         <div className="col-lg-12 mb--25">
                             <div className="blog-title-two-center text-center">
-                                <h2 className="title">From the Blog</h2>
+                                <h2 className="title">Blogumuz</h2>
                             </div>
                         </div>
                         <div

@@ -9,8 +9,8 @@ function Nav() {
                 <nav>
                     <ul>
                         <li className="has-dropdown">
-                            <Link className="nav-link" href="#">
-                                Demos
+                            <Link className="nav-link" href="/index-four">
+                                Ana Sayfa
                                 <i className="fa-duotone fa-regular fa-chevron-down" />
                             </Link>
                             <ul className="submenu parent-nav with-border">

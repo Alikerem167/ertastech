@@ -49,7 +49,7 @@ function HeaderThree() {
                         <div className="col-lg-12">
                             <div className="header-four-wrapper">
                                 <Link href="/#" className="logo">
-                                    <img src="assets/images/logo/logo-1.svg" alt="logo" />
+                                    <img src="/assets/images/logo/logo3.png" alt="logo" style={{ width: '70px', height: '70px' }} />
                                 </Link>
                                 <Nav />
                                 <div className="button-area-right-header">

@@ -47,8 +47,8 @@ function HeaderOne() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="header-wrapper-1">
-                                <Link href="/#" className="logo-area">
-                                    <img src="/assets/images/logo/logo-1.svg" alt="logo" />
+                                <Link href="/#" className="logo-area" style={{ display: 'flex', alignItems: 'center' }}>
+                                   <img src="/assets/images/logo/logo3.png" alt="logo" style={{ width: '70px', height: '70px' }} />
                                 </Link>
                                 <Nav />
                                 <div className="button-area-right-header">
@@ -84,8 +84,8 @@ function HeaderOne() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="header-wrapper-1">
-                                <Link href="/#" className="logo-area">
-                                    <img src="/assets/images/logo/logo-1.svg" alt="logo" />
+                                <Link href="/#" className="logo-area" style={{ display: 'flex', alignItems: 'center' }}>
+                                    <img src="/assets/images/logo/logo3.png" alt="logo" style={{ width: '70px', height: '70px' }} />
                                 </Link>
                                 <Nav />
                                 <div className="button-area-right-header">
