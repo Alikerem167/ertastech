@@ -22,7 +22,7 @@ function CaseFive() {
                 >
                 <div className="single-case-studies">
                     <a href="/case-studies-single" className="thumbnail">
-                    <img src="assets/images/case-studies/11.webp" alt="image" />
+                    <img src="assets/images/case-studies/uygun.png" alt="image" />
                     </a>
                     <div className="inner-content">
                     <span>Ticari Web Sitesi</span>

@@ -196,7 +196,7 @@ function Nav() {
                         </li>
                         <li>
                             <Link className="nav-link" href="/case-studies">
-                                Case Studies
+                                Referanslarımız
                             </Link>
                         </li>
                         <li className="has-dropdown position-static with-megamenu">

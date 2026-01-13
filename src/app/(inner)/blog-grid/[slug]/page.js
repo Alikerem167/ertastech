@@ -76,65 +76,38 @@ export default function BlogDetails() {
                       {/* single info */}
                       <div className="single">
                         <i className="far fa-user-circle" />
-                        <span>by David Smith</span>
+                        <span>Ertas Tech</span>
                       </div>
                       {/* single infoe end */}
                       {/* single info */}
-                      <div className="single">
-                        <i className="far fa-clock" />
-                        <span>by David Smith</span>
-                      </div>
+                      
                       {/* single infoe end */}
                       {/* single info */}
-                      <div className="single">
-                        <i className="far fa-tags" />
-                        <span>by David Smith</span>
-                      </div>
+                     
                       {/* single infoe end */}
                     </div>
                     <h3 className="title animated fadeIn">
-                      Building smart business solution for you
+                     İşiniz İçin Akıllı Dijital Çözümler Geliştiriyoruz
                     </h3>
                     <p className="disc para-1">
-                      Collaboratively pontificate bleeding edge resources with
-                      inexpensive methodologies globally initiate multidisciplinary
-                      compatible architectures pidiously repurpose leading edge growth
-                      strategies with just in time web readiness communicate timely
-                      meta services
+                      ErtasTech olarak işletmelerin dijital dünyada sürdürülebilir başarı elde etmesi için yenilikçi ve akıllı yazılım çözümleri geliştiriyoruz. Modern teknolojileri, ölçeklenebilir altyapılarla birleştirerek düşük maliyetli ve yüksek verimli sistemler sunuyoruz. Web tabanlı çözümler, özel yazılım geliştirme ve dijital dönüşüm süreçlerinde uçtan uca destek sağlayarak markaların rekabet gücünü artırıyoruz.
                     </p>
                     <p className="disc">
-                      Onubia semper vel donec torquent fusce mauris felis aptent
-                      lacinia nisl, lectus himenaeos euismod molestie iaculis interdum
-                      in laoreet condimentum dictum, quisque quam risus sollicitudin
-                      gravida ut odio per a et. Gravida maecenas lobortis suscipit mus
-                      sociosqu convallis, mollis vestibulum donec aliquam risus sapien
-                      ridiculus, nulla sollicitudin eget in venenatis. Tortor montes
-                      platea iaculis posuere per mauris, eros porta blandit curabitur
-                      ullamcorper varius
+                      Kurumsal ihtiyaçlara özel geliştirilen yazılım mimarilerimiz; güvenlik, performans ve esneklik odaklıdır. Kullanıcı deneyimini merkeze alan yaklaşımımız sayesinde, iş süreçlerinizi optimize eden ve zaman kazandıran dijital çözümler üretiyoruz. ErtasTech’in teknoloji danışmanlığı hizmetleri, işletmelerin doğru teknolojiyi doğru zamanda kullanmasını hedefler.
                     </p>
                     {/* quote area start */}
                     <div className="rts-quote-area text-center">
                       <h5 className="title">
-                        “Placerat pretium tristique mattis tellus accuan metus
-                        dictumst vivamus odio nulla fusce auctor into suscipit
-                        habitasse class congue potenti iaculis”
+                        “Veri odaklı analizler ve güncel yazılım trendleri doğrultusunda geliştirilen projelerimiz, işletmelerin dijital büyümesini destekler. Web uygulamaları, kurumsal sistemler ve entegrasyon çözümleriyle süreçlerinizi daha verimli hale getiriyoruz. Güçlü altyapılar ve modern yazılım dilleri sayesinde uzun vadeli ve sürdürülebilir çözümler sunuyoruz.
                       </h5>
                       <a href="#" className="name">
-                        Daniel X. Horrar
+                        Ali Kerem ERTAŞ
                       </a>
-                      <span>Author</span>
+                      <span>Çalışan</span>
                     </div>
                     {/* quote area end */}
                     <p className="disc">
-                      Ultrices iaculis commodo parturient euismod pulvinar donec cum
-                      eget a, accumsan viverra cras praesent cubilia dignissim ad
-                      rhoncus. Gravida maecenas lobortis suscipit mus sociosqu
-                      convallis, mollis vestibulum donec aliquam risus sapien
-                      ridiculus, nulla sollicitudin eget in venenatis. Tortor montes
-                      platea iaculis posuere per mauris, eros porta blandit curabitur
-                      ullamcorper varius, nostra ante risus egestas suscipit. Quisque
-                      interdum nec parturient facilisis nunc ac quam, ad est cubilia
-                      mauris himenaeos nascetur vestibulum.
+                      Yazılım geliştirme sürecinde kalite, güvenlik ve ölçeklenebilirlik temel önceliklerimizdir. ErtasTech olarak dijital dönüşüm projelerinde, işletmelerin mevcut yapısına uyumlu ve geleceğe hazır sistemler tasarlıyoruz. Her projede performansı artıran, maliyetleri düşüren ve iş sürekliliğini sağlayan çözümler üretmeye odaklanıyoruz.
                     </p>
                     <div className="row g-5">
                       <div className="col-lg-6 col-md-6">
