@@ -10,7 +10,7 @@ function FooterFour() {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="small-footer-wrapper">
-                                    <p>© 2024 Luminos. All rights reserved.</p>
+                                    <p>©2026 Ertastech. Tüm hakları saklıdır.</p>
                                     <div className="nav-social-area">
                                         <ul>
                                             <li>

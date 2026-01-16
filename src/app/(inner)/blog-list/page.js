@@ -16,7 +16,7 @@ function page() {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="career-page-single-banner blog-page">
-                                    <h1 className="title">Our Latest News</h1>
+                                    <h1 className="title">Bloglarımız</h1>
                                 </div>
                             </div>
                         </div>
@@ -198,85 +198,17 @@ function page() {
                                 {/* single wizered End */}
                                 {/* single wizered start */}
                                 <div className="rts-single-wized Recent-post">
-                                    <div className="wized-header">
-                                        <h5 className="title">Gallery Posts</h5>
-                                    </div>
-                                    <div className="wized-body">
-                                        <div className="gallery-inner">
-                                            <div className="row-1 single-row">
-                                                <a href="/blog-details">
-                                                    <img src="assets/images/blog/sm/04.jpg" alt="Gallery" />
-                                                </a>
-                                                <a href="/blog-details">
-                                                    <img src="assets/images/blog/sm/05.jpg" alt="Gallery" />
-                                                </a>
-                                                <a href="/blog-details">
-                                                    <img src="assets/images/blog/sm/06.jpg" alt="Gallery" />
-                                                </a>
-                                            </div>
-                                            <div className="row-2 single-row">
-                                                <a href="/blog-details">
-                                                    <img src="assets/images/blog/sm/07.jpg" alt="Gallery" />
-                                                </a>
-                                                <a href="/blog-details">
-                                                    <img src="assets/images/blog/sm/08.jpg" alt="Gallery" />
-                                                </a>
-                                                <a href="/blog-details">
-                                                    <img src="assets/images/blog/sm/09.jpg" alt="Gallery" />
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                   
+                                    
                                 </div>
                                 {/* single wizered End */}
                                 {/* single wizered start */}
-                                <div className="rts-single-wized">
-                                    <div className="wized-header">
-                                        <h5 className="title">Popular Tags</h5>
-                                    </div>
-                                    <div className="wized-body">
-                                        <div className="tags-wrapper">
-                                            <a href="/blog-details">Services</a>
-                                            <a href="/blog-details">Business</a>
-                                            <a href="/blog-details">Growth</a>
-                                            <a href="/blog-details">Finance</a>
-                                            <a href="/blog-details">UI/UX Design</a>
-                                            <a href="/blog-details">Solution</a>
-                                            <a href="/blog-details">Speed</a>
-                                            <a href="/blog-details">Strategy</a>
-                                            <a href="/blog-details">Technology</a>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                                 {/* single wizered End */}
                             </div>
                             {/* rts- blog wizered end area */}
                         </div>
-                        <div className="row mt--30">
-                            <div className="col-lg-12">
-                                <div className="pagination-one">
-                                    <ul>
-                                        <li>
-                                            <button className="active">01</button>
-                                        </li>
-                                        <li>
-                                            <button>02</button>
-                                        </li>
-                                        <li>
-                                            <button>03</button>
-                                        </li>
-                                        <li>
-                                            <button>04</button>
-                                        </li>
-                                        <li>
-                                            <button className="next-page">
-                                                <i className="fa-solid fa-chevrons-right" />
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </>

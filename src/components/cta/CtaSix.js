@@ -12,7 +12,7 @@ function CtaSix() {
                             <div className="get-quote-area-service-wrapper">
                                 <h3 className="title">Have questions?</h3>
                                 <p>
-                                    Call us +1 328 713 349 or click the button below to get in touch
+                                    Call us +1 328 713 349 or click the button below to İletişime Geçin
                                 </p>
                                 <a
                                     href="#"

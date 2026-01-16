@@ -27,18 +27,17 @@ function BlogFour() {
                                         <span>Cloud Migration</span>
                                         <Link href="/blog-grid/protecting-your-business">
                                             <h3 className="title animated fadeIn">
-                                                Future of cloud computing
+                                                Bulut Bilişim ve Cloud Migration Çözümleri
                                             </h3>
                                         </Link>
                                         <p className="disc">
-                                            How do you create compelling presentations that wow your
-                                            colleagues and impress your managers?
+                                            Bulut bilişim teknolojileriyle sistemlerinizi daha güvenli, hızlı ve ölçeklenebilir hale getirin. ErtasTech cloud migration çözümleri sayesinde altyapınızı modern bulut sistemlerine taşıyarak performans ve maliyet avantajı sağlayın.
                                         </p>
                                         <div className="bottom-author-area">
                                             <img src="assets/images/testimonials/01.png" alt="author" />
                                             <div className="author-area-info">
-                                                <h6 className="title">Marcus Freeman</h6>
-                                                <span>24 Sept 2024</span>
+                                                <h6 className="title">Ertastech</h6>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -57,18 +56,17 @@ function BlogFour() {
                                         <span>UX Design</span>
                                         <Link href="/blog-grid/protecting-your-business">
                                             <h3 className="title animated fadeIn">
-                                                UX review presentations
+                                                UX Design ve Kullanıcı Deneyimi Çözümleri
                                             </h3>
                                         </Link>
                                         <p className="disc">
-                                            How do you create compelling presentations that wow your
-                                            colleagues and impress your managers?
+                                           Kullanıcı deneyimi (UX) odaklı tasarımlar ile web ve mobil projelerinizde etkileşimi artırın. ErtasTech UX design hizmetleri, kullanıcı davranışlarını analiz ederek dönüşüm oranlarını yükselten arayüzler sunar.
                                         </p>
                                         <div className="bottom-author-area">
                                             <img src="assets/images/testimonials/02.png" alt="author" />
                                             <div className="author-area-info">
-                                                <h6 className="title">Alicia Ngo</h6>
-                                                <span>5 Sept 2024</span>
+                                                <h6 className="title">Ertastech</h6>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -84,21 +82,20 @@ function BlogFour() {
                                 </Link>
                                 <div className="inner-content-area">
                                     <div className="top-area">
-                                        <span>Cyber Security</span>
+                                        <span>Web Uygulaması</span>
                                         <Link href="/blog-grid/protecting-your-business">
                                             <h3 className="title animated fadeIn">
-                                                Protecting your business
+                                                Web Uygulaması Geliştirme Hizmetleri
                                             </h3>
                                         </Link>
                                         <p className="disc">
-                                            How do you create compelling presentations that wow your
-                                            colleagues and impress your managers?
+                                            İşletmelere özel web uygulaması geliştirme çözümleriyle dijital süreçlerinizi yönetin. Güvenli, hızlı ve ölçeklenebilir web yazılım sistemleri sayesinde iş verimliliğinizi artırın.
                                         </p>
                                         <div className="bottom-author-area">
                                             <img src="assets/images/testimonials/07.png" alt=" author" />
                                             <div className="author-area-info">
-                                                <h6 className="title">Marcus Freeman</h6>
-                                                <span>24 Sept 2024</span>
+                                                <h6 className="title">Ertastech</h6>
+                                                
                                             </div>
                                         </div>
                                     </div>

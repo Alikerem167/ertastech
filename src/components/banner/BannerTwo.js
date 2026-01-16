@@ -63,7 +63,7 @@ function BannerTwo() {
                                         className="rts-btn btn-border wow fadeInUp"
                                         data-wow-delay=".5s"
                                     >
-                                        Get in touch
+                                        İletişime Geçin
                                         <ReactSVG
                                             src="assets/images/service/icons/13.svg"
                                             alt="arrow"

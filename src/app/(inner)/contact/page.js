@@ -45,8 +45,8 @@ export default function Home() {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="text-center-title-bg-white">
-                                    <h2 className="title">Get in touch</h2>
-                                    <p>We’d love to hear from you. Please fill out this form.</p>
+                                    <h2 className="title">İletişime Geçin</h2>
+                                    <p>Sorunlarınızı bizimle paylaşın</p>
                                 </div>
                             </div>
                             <div className="col-lg-12">
@@ -58,51 +58,51 @@ export default function Home() {
                                 >
                                     <div className="half-input-wrapper">
                                         <div className="single">
-                                            <label htmlFor="name">First name</label>
+                                            <label htmlFor="name">Adınız</label>
                                             <input
                                                 type="text"
                                                 id="name"
                                                 name="first_name"
-                                                placeholder="First name"
+                                                placeholder="Adınız"
                                                 required
                                             />
                                         </div>
                                         <div className="single">
-                                            <label htmlFor="last">Last name</label>
+                                            <label htmlFor="last">Soyadınız</label>
                                             <input
                                                 type="text"
                                                 id="last"
                                                 name="last_name"
-                                                placeholder="Last name"
+                                                placeholder="Soyadınız"
                                                 required
                                             />
                                         </div>
                                     </div>
                                     <div className="single">
-                                        <label htmlFor="email">Email</label>
+                                        <label htmlFor="email">E-Posta Adresiniz</label>
                                         <input
                                             type="email"
                                             id="email"
                                             name="email"
-                                            placeholder="you@company.com"
+                                            placeholder="ertas@tech.com"
                                             required
                                         />
                                     </div>
                                     <div className="single">
-                                        <label htmlFor="phone">Phone</label>
+                                        <label htmlFor="phone">Telefon Numaranız</label>
                                         <input
                                             type="text"
                                             id="phone"
                                             name="phone"
-                                            placeholder="+1 (555) 000-0000"
+                                            placeholder="+90 (555) 000-0000"
                                         />
                                     </div>
                                     <div className="single">
-                                        <label htmlFor="message">Message</label>
+                                        <label htmlFor="message">Mesajınız</label>
                                         <textarea
                                             id="message"
                                             name="message"
-                                            placeholder="Leave us a message..."
+                                            placeholder="Mesajınızı buraya yazın..."
                                             required
                                         />
                                     </div>
@@ -115,11 +115,11 @@ export default function Home() {
                                             required
                                         />
                                         <label className="form-check-label" htmlFor="defaultCheck1">
-                                            You agree to our friendly privacy policy.
+                                            “Gizlilik politikasını kabul ediyorum.”
                                         </label>
                                     </div>
                                     <button type="submit" className="rts-btn btn-primary">
-                                        Send message
+                                        Mesajınızı Gönderin
                                         <ReactSVG
                                             src="assets/images/service/icons/13.svg"
                                             alt="arrow"
@@ -131,60 +131,8 @@ export default function Home() {
                     </div>
                 </div>
                 {/* contact area form wrapper end */}
-                <div className="rts-google-map-area rts-section-gapTop">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="google-map-wrapper">
-                                    <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d58418.94421839912!2d90.423296!3d23.7764608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1731922050679!5m2!1sen!2sbd"
-                                        width={600}
-                                        height={500}
-                                        style={{ border: 0 }}
-                                        allowFullScreen=""
-                                        loading="lazy"
-                                        referrerPolicy="no-referrer-when-downgrade"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* rts location area start */}
-                <div className="rts-location-contact-area pt--70">
-                    <div className="container">
-                        <div className="row section-seperator-b pb--90 g-5">
-                            <div className="col-lg-4 col-md-6 col-sm-12">
-                                <div className="single-location-area-contact">
-                                    <div className="icon">
-                                        <i className="fa-sharp fa-regular fa-location-dot" />
-                                    </div>
-                                    <p>Retail store</p>
-                                    <span>Mon-Sat 9am to 5pm.</span>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12">
-                                <div className="single-location-area-contact">
-                                    <div className="icon">
-                                        <i className="fa-sharp fa-regular fa-location-dot" />
-                                    </div>
-                                    <p>Showroom</p>
-                                    <span>Mon-Fri 9am to 5pm.</span>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12">
-                                <div className="single-location-area-contact">
-                                    <div className="icon">
-                                        <i className="fa-sharp fa-regular fa-location-dot" />
-                                    </div>
-                                    <p>Head office</p>
-                                    <span>Mon-Sat 9am to 5pm.</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* rts location area end */}
+                
+                
             </>
 
 

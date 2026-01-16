@@ -56,7 +56,7 @@ function FooterTwo() {
                                     <img src="/assets/images/logo/logo3.png" alt="logo" style={{ width: '70px', height: '70px' }} />
                                 </Link>
                                 <p className="disc">
-                                    Luminous is a leading IT solutions company that provides
+                                    Ertaş Tech, her ölçekteki işletmeye yenilikçi ve güvenilir teknoloji çözümleri sunan, dijital dönüşüme odaklı öncü bir IT çözümleri şirketidir. provides
                                     innovative technology services to businesses of all sizes.
                                 </p>
                             </div>
@@ -175,7 +175,7 @@ function FooterTwo() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="copyright-wrapper">
-                                <p>© 2024 Luminos. All rights reserved.</p>
+                                <p>©2026 Ertastech. Tüm hakları saklıdır.</p>
                                 <div className="social-copyright-area">
                                     <ul>
                                         <li aria-label="Visit our Facebook page">

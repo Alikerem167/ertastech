@@ -10,7 +10,7 @@ function Wedo() {
                         <div className="col-lg-12">
                             <div className="what-we-do-wrapper-about">
                                 <p className="disc">
-                                    Luminous is a leading IT solutions company that provides
+                                    Ertaş Tech, her ölçekteki işletmeye yenilikçi ve güvenilir teknoloji çözümleri sunan, dijital dönüşüme odaklı öncü bir IT çözümleri şirketidir. provides
                                     innovative technology services to businesses of all sizes. We
                                     specialize in cloud computing, cybersecurity, data analytics, and
                                     custom software development.
@@ -31,7 +31,7 @@ function Wedo() {
                                     help our clients solve their business problems.
                                 </p>
                                 <a href="#" className="rts-btn btn-border btn-bold">
-                                    Get in touch
+                                    İletişime Geçin
                                     <img src="assets/images/service/icons/13.svg" alt="arrow" />
                                 </a>
                             </div>

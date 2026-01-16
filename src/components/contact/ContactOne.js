@@ -10,7 +10,7 @@ function ContactOne() {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="title-center-footer-5">
-                                    <h2 className="title">Let’s get in touch</h2>
+                                    <h2 className="title">Let’s İletişime Geçin</h2>
                                 </div>
                             </div>
                         </div>

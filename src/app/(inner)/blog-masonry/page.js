@@ -80,10 +80,10 @@ function page() {
                                         <img src="assets/images/blog/06.webp" alt="blog" />
                                     </Link>
                                     <div className="inner">
-                                        <span className="tag">Cyber Security</span>
+                                        <span className="tag">Web Uygulaması</span>
                                         <div className="title-wrapper">
                                             <Link href="/blog-grid/protecting-your-business">
-                                                <h3 className="title">Protecting your business</h3>
+                                                <h3 className="title">Web Uygulamaları Hakkında</h3>
                                             </Link>
                                             <img src="assets/images/blog/07.webp" alt="blog" />
                                         </div>

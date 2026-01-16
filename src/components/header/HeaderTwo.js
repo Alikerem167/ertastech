@@ -54,7 +54,7 @@ function HeaderOne() {
                                 <Nav />
                                 <div className="button-area-right-header">
                                     <a href="/contact" className="rts-btn btn-border">
-                                        Get in touch
+                                        İletişime Geçin
                                         <ReactSVG 
                                             src="/assets/images/service/icons/13.svg"
                                             alt="arrow"
@@ -91,7 +91,7 @@ function HeaderOne() {
                                 <Nav />
                                 <div className="button-area-right-header">
                                     <a href="/contact" className="rts-btn btn-border">
-                                        Get in touch
+                                        İletişime Geçin
                                         <ReactSVG
                                             src="/assets/images/service/icons/13.svg"
                                             alt="arrow"
