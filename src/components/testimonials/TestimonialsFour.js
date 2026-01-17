@@ -58,10 +58,7 @@ Marka algımızı güçlendiren tasarım ve teknik çözümler sundular.
 Profesyonellik ve güveni aynı anda sunan bir ekip.”
                                                 </p>
                                                 <div className="user-area">
-                                                    <img
-                                                        src="assets/images/testimonials/09.png"
-                                                        alt="testimonials"
-                                                    />
+                                                    
                                                     <div className="info-area">
                                                         <h6 className="title">X</h6>
                                                         <span>Uygun Temizlik Şirket Sahibi</span>
@@ -79,10 +76,7 @@ Süreç boyunca şeffaf, hızlı ve çözüm odaklı ilerlediler.
 E-ticaret alanında güvenilir bir teknoloji ortağı arayan herkese gönül rahatlığıyla öneririz.”
                                                 </p>
                                                 <div className="user-area">
-                                                    <img
-                                                        src="assets/images/testimonials/08.png"
-                                                        alt="testimonials"
-                                                    />
+                                                    
                                                     <div className="info-area">
                                                         <h6 className="title">X</h6>
                                                         <span>Bameman E-Ticaret Genel Müdürü</span>
@@ -100,10 +94,7 @@ Zamanında teslim ve sürdürülebilir çözümler sundular.
 Uzun vadeli iş birlikleri için doğru adres.”
                                                 </p>
                                                 <div className="user-area">
-                                                    <img
-                                                        src="assets/images/testimonials/07.png"
-                                                        alt="testimonials"
-                                                    />
+                                                    
                                                     <div className="info-area">
                                                         <h6 className="title">X</h6>
                                                         <span>X</span>
@@ -121,10 +112,7 @@ Her aşamada destek sunmaları güven vericiydi.
 Yenilikçi ve kurumsal yaklaşımı bir arada sunan nadir ekiplerden biri.”
                                                 </p>
                                                 <div className="user-area">
-                                                    <img
-                                                        src="assets/images/testimonials/01.png"
-                                                        alt="testimonials"
-                                                    />
+                                                    
                                                     <div className="info-area">
                                                         <h6 className="title">X</h6>
                                                         <span>X</span>
@@ -142,10 +130,7 @@ Teknik uzmanlıklarını iş hedeflerimizle başarıyla birleştirdiler.
 Dijital alanda güçlü ve uzun vadeli bir iş ortağı arayanlar için doğru tercih.”
                                                 </p>
                                                 <div className="user-area">
-                                                    <img
-                                                        src="assets/images/testimonials/02.png"
-                                                        alt="testimonials"
-                                                    />
+                                                    
                                                     <div className="info-area">
                                                         <h6 className="title">X</h6>
                                                         <span>X</span>
