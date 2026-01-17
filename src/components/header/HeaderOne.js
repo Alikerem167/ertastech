@@ -52,7 +52,7 @@ function HeaderOne() {
                                 </Link>
                                 <Nav />
                                 <div className="button-area-right-header">
-                                    <a href="/contact" className="rts-btn btn-border">
+                                    <a href="/contact" className="rts-btn btn-border" data-i18n="iletisimegecin">
                                         İletişime Geçin
                                         <ReactSVG
                                             src="/assets/images/service/icons/13.svg"
@@ -89,7 +89,7 @@ function HeaderOne() {
                                 </Link>
                                 <Nav />
                                 <div className="button-area-right-header">
-                                    <a href="/contact" className="rts-btn btn-border">
+                                    <a href="/contact" className="rts-btn btn-border" data-i18n="iletisimegecin">
                                         İletişime Geçin
                                         <img
                                             className="injectable"

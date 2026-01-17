@@ -1,0 +1,170 @@
+{
+  "tr": {
+    "anasayfa": "Ana Sayfa",
+    "referanslarimiz": "Referanslarımız",
+    "blog": "Blog",
+    "iletisim": "İletişim",
+
+    "bannerfour_title": "Biz Kimiz?",
+    "bannerfour_desc": "Ertastech olarak, sorunlarınızı çözmek için yenilikçi ve özelleştirilmiş yazılım çözümleri sunuyoruz. Beraberinde ise hizmet verdiğimiz alanlarda uzman ekibimizle problemlerinizi yüksek başarı ile çözümlüyor ve mutluluğunuzu amaçlıyoruz.",
+    "bannerfour_cta_aria": "İletişime geç",
+     "casefive_title": "Referanslarımız",
+
+    "casefive_item1_type": "Ticari Web Sitesi",
+    "casefive_item1_title": "Uygun Temizlik",
+
+    "casefive_item2_type": "Shopify temelli ticaret sitesi",
+    "casefive_item2_title": "Bameman",
+
+    "casefive_item3_type": "Otomasyon",
+    "casefive_item3_title": "X",
+
+    "casefive_item4_type": "Siber Güvenlik",
+    "casefive_item4_title": "X",
+    "casefive_more_btn": "Daha fazlası için tıklayın",
+    "testimonials_item1_text": "“Hizmet sektörüne uygun, sade ama etkili bir dijital yapı kurmak için Ertas Tech ile çalıştık.\nWeb sitemiz sayesinde müşteri taleplerimiz daha düzenli ve hızlı hale geldi.\nMarka algımızı güçlendiren tasarım ve teknik çözümler sundular.\nİhtiyaçlarımızı doğru analiz edip bize özel bir sistem geliştirdiler.\nProfesyonellik ve güveni aynı anda sunan bir ekip.”",
+    "testimonials_item1_name": "X",
+    "testimonials_item1_role": "Uygun Temizlik Şirket Sahibi",
+
+    "testimonials_item2_text": "“Bameman’ın e-ticaret altyapısını Ertas Tech ile birlikte sıfırdan inşa ettik.\nHem kullanıcı deneyimi hem de mobil performans konusunda beklentilerimizin üzerine çıktılar.\nSatış odaklı tasarım anlayışları ve teknik yaklaşımları sayesinde dönüşüm oranlarımız ciddi şekilde arttı.\nSüreç boyunca şeffaf, hızlı ve çözüm odaklı ilerlediler.\nE-ticaret alanında güvenilir bir teknoloji ortağı arayan herkese gönül rahatlığıyla öneririz.”",
+    "testimonials_item2_name": "X",
+    "testimonials_item2_role": "Bameman E-Ticaret Genel Müdürü",
+
+    "testimonials_item3_text": "“Ertas Tech, dijital dönüşüm sürecimizde yalnızca bir hizmet sağlayıcı değil, gerçek bir iş ortağı oldu.\nMevcut sistemlerimizi analiz ederek daha verimli ve güvenli bir altyapı kurmamıza yardımcı oldular.\nTeknik bilgi birikimleri ve stratejik yaklaşımları fark yarattı.\nZamanında teslim ve sürdürülebilir çözümler sundular.\nUzun vadeli iş birlikleri için doğru adres.”",
+    "testimonials_item3_name": "X",
+    "testimonials_item3_role": "X",
+
+    "testimonials_item4_text": "“Projelerimizi Ertas Tech’in uzman ekibiyle hayata geçirmek bizim için büyük bir avantaj oldu.\nİhtiyacımıza özel geliştirilen çözümler sayesinde süreçlerimiz hızlandı.\nTeknolojiye hakimiyetleri ve iletişimleri son derece güçlü.\nHer aşamada destek sunmaları güven vericiydi.\nYenilikçi ve kurumsal yaklaşımı bir arada sunan nadir ekiplerden biri.”",
+    "testimonials_item4_name": "X",
+    "testimonials_item4_role": "X",
+
+    "testimonials_item5_text": "“Ertas Tech ile çalışmaya başladığımız günden itibaren teknolojiye bakış açımız değişti.\nİş süreçlerimizi analiz ederek bize özel, ölçeklenebilir çözümler geliştirdiler.\nGüvenlik, performans ve sürdürülebilirlik konularında yüksek standartlarla ilerlediler.\nTeknik uzmanlıklarını iş hedeflerimizle başarıyla birleştirdiler.\nDijital alanda güçlü ve uzun vadeli bir iş ortağı arayanlar için doğru tercih.”",
+    "testimonials_item5_name": "X",
+    "testimonials_item5_role": "X",
+    "blogfour_title": "Blogumuz",
+
+    "blogfour_item1_category": "Bulut Bilişim",
+    "blogfour_item1_title": "Bulut Bilişim ve Cloud Migration Çözümleri",
+    "blogfour_item1_desc": "Bulut bilişim teknolojileriyle sistemlerinizi daha güvenli, hızlı ve ölçeklenebilir hale getirin. ErtasTech cloud migration çözümleri sayesinde altyapınızı modern bulut sistemlerine taşıyarak performans ve maliyet avantajı sağlayın.",
+
+    "blogfour_item2_category": "UX Design",
+    "blogfour_item2_title": "UX Design ve Kullanıcı Deneyimi Çözümleri",
+    "blogfour_item2_desc": "Kullanıcı deneyimi (UX) odaklı tasarımlar ile web ve mobil projelerinizde etkileşimi artırın. ErtasTech UX design hizmetleri, kullanıcı davranışlarını analiz ederek dönüşüm oranlarını yükselten arayüzler sunar.",
+
+    "blogfour_item3_category": "Web Uygulaması",
+    "blogfour_item3_title": "Web Uygulaması Geliştirme Hizmetleri",
+    "blogfour_item3_desc": "İşletmelere özel web uygulaması geliştirme çözümleriyle dijital süreçlerinizi yönetin. Güvenli, hızlı ve ölçeklenebilir web yazılım sistemleri sayesinde iş verimliliğinizi artırın.",
+
+    "blogfour_more_btn": "Daha Fazlası",
+    "footer_desc": "Ertaş Tech, işletmelerin dijital dönüşüm süreçlerinde ihtiyaç duyduğu teknoloji çözümlerini güvenilir, sürdürülebilir ve sonuç odaklı bir yaklaşımla sunar.",
+
+    "footer_contact_title": "İletişim",
+    "footer_email_label": "E-posta: ",
+    "footer_phone_label": "Telefon: ",
+
+    "footer_support_title": "Destek",
+    "footer_support_label": "Teknik Destek: ",
+    "footer_sales_label": "Satış & Teklif: ",
+    "footer_contact_form": "İletişim Formu",
+
+    "footer_copyright": "© 2026 Ertastech. Tüm hakları saklıdır.",
+    "servicefive_title": "Başlıca Hizmetlerimiz",
+    "servicefive_item_automation": "Otomasyon",
+    "servicefive_item_app_analysis": "Uygulama Çözümlemeleri",
+    "servicefive_item_cybersecurity": "Siber Güvenlik",
+    "servicefive_item_technologies": "Technologies",
+    "servicefive_item_tech_consulting": "Teknoloji Danışmanlığı",
+    "servicefive_item_software_dev": "Yazılım Geliştirme",
+    "servicefive_item_ai_services": "Yapay Zeka Hizmetleri",
+    "servicefive_item_management": "Yönetim",
+    "servicefive_item_tech_innovations": "Teknoloji İnovasyonları",
+    "blog_list_title": "Bloglarımız"
+
+
+  },
+  "en": {
+    "anasayfa": "Home",
+    "referanslarimiz": "Case Studies",
+    "blog": "Blog",
+    "iletisim": "Contact",
+
+    "bannerfour_title": "Who are we?",
+    "bannerfour_desc": "At Ertastech, we provide innovative and customized software solutions to solve your challenges. With our expert team, we resolve problems with high success and focus on your satisfaction.",
+    "bannerfour_cta_aria": "Get in touch",
+    "casefive_title": "Our References",
+
+    "casefive_item1_type": "Corporate Website",
+    "casefive_item1_title": "Uygun Temizlik",
+
+    "casefive_item2_type": "Shopify-based eCommerce Website",
+    "casefive_item2_title": "Bameman",
+
+    "casefive_item3_type": "Automation",
+    "casefive_item3_title": "X",
+
+    "casefive_item4_type": "Cybersecurity",
+    "casefive_item4_title": "X",
+
+    "casefive_more_btn": "Click to see more",
+    "testimonials_item1_text": "“We worked with Ertas Tech to build a simple yet effective digital structure suitable for the service industry.\nThanks to our website, customer requests became more organized and faster.\nThey provided design and technical solutions that strengthened our brand perception.\nThey analyzed our needs correctly and developed a tailored system for us.\nA team that delivers professionalism and trust together.”",
+    "testimonials_item1_name": "X",
+    "testimonials_item1_role": "Owner, Uygun Temizlik",
+
+    "testimonials_item2_text": "“We built Bameman’s e-commerce infrastructure from scratch together with Ertas Tech.\nThey exceeded our expectations in both user experience and mobile performance.\nThanks to their conversion-focused design approach and technical mindset, our conversion rates increased significantly.\nThey were transparent, fast, and solution-oriented throughout the process.\nWe confidently recommend them to anyone looking for a reliable technology partner in e-commerce.”",
+    "testimonials_item2_name": "X",
+    "testimonials_item2_role": "General Manager, Bameman E-Commerce",
+
+    "testimonials_item3_text": "“Ertas Tech became a true business partner in our digital transformation—not just a service provider.\nThey analyzed our existing systems and helped us build a more efficient and secure infrastructure.\nTheir technical expertise and strategic approach made a real difference.\nThey delivered on time and provided sustainable solutions.\nThe right address for long-term collaborations.”",
+    "testimonials_item3_name": "X",
+    "testimonials_item3_role": "X",
+
+    "testimonials_item4_text": "“Bringing our projects to life with Ertas Tech’s expert team was a major advantage for us.\nWith tailor-made solutions, our processes became faster.\nTheir command of technology and communication was extremely strong.\nTheir support at every stage was reassuring.\nOne of the rare teams that combines innovation with a corporate approach.”",
+    "testimonials_item4_name": "X",
+    "testimonials_item4_role": "X",
+
+    "testimonials_item5_text": "“From the day we started working with Ertas Tech, our perspective on technology changed.\nThey analyzed our business processes and developed scalable solutions tailored to us.\nThey moved forward with high standards in security, performance, and sustainability.\nThey successfully combined their technical expertise with our business goals.\nThe right choice for anyone seeking a strong, long-term digital partner.”",
+    "testimonials_item5_name": "X",
+    "testimonials_item5_role": "X",
+    "blogfour_title": "Our Blog",
+
+    "blogfour_item1_category": "Cloud Computing",
+    "blogfour_item1_title": "Cloud Computing and Migration Solutions",
+    "blogfour_item1_desc": "Make your systems more secure, faster, and scalable with cloud computing technologies. With ErtasTech cloud migration solutions, move your infrastructure to modern cloud systems and gain performance and cost advantages.",
+
+    "blogfour_item2_category": "UX Design",
+    "blogfour_item2_title": "UX Design and User Experience Solutions",
+    "blogfour_item2_desc": "Increase engagement in your web and mobile projects with UX-focused designs. ErtasTech UX design services analyze user behavior to deliver interfaces that boost conversion rates.",
+
+    "blogfour_item3_category": "Web Application",
+    "blogfour_item3_title": "Web Application Development Services",
+    "blogfour_item3_desc": "Manage your digital processes with custom web application development solutions. Increase business efficiency with secure, fast, and scalable web software systems.",
+
+    "blogfour_more_btn": "View More Blog",
+    "footer_desc": "Ertaş Tech provides the technology solutions businesses need in their digital transformation processes with a reliable, sustainable, and result-oriented approach.",
+
+    "footer_contact_title": "Contact",
+    "footer_email_label": "Email: ",
+    "footer_phone_label": "Phone: ",
+
+    "footer_support_title": "Support",
+    "footer_support_label": "Technical Support: ",
+    "footer_sales_label": "Sales & Quotation: ",
+    "footer_contact_form": "Contact Form",
+
+    "footer_copyright": "© 2026 Ertastech. All rights reserved.",
+     "servicefive_title": "Our Core Services",
+    "servicefive_item_automation": "Automation",
+    "servicefive_item_app_analysis": "Application Analysis",
+    "servicefive_item_cybersecurity": "Cybersecurity",
+    "servicefive_item_technologies": "Technologies",
+    "servicefive_item_tech_consulting": "Technology Consulting",
+    "servicefive_item_software_dev": "Software Development",
+    "servicefive_item_ai_services": "AI Services",
+    "servicefive_item_management": "Management",
+    "servicefive_item_tech_innovations": "Technology Innovations",
+    "blog_list_title": "Our Blogs"
+
+
+
+  }
+}

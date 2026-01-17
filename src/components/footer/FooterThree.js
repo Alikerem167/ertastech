@@ -16,7 +16,7 @@ function FooterThree() {
                   <Link href="/" className="logo">
                     <img src="/assets/images/logo/logo3.png" alt="logo" />
                   </Link>
-                  <p className="disc">
+                  <p className="disc" data-i18n="footer_desc">
                     Ertaş Tech, işletmelerin dijital dönüşüm süreçlerinde ihtiyaç duyduğu
                     teknoloji çözümlerini güvenilir, sürdürülebilir ve sonuç odaklı bir
                     yaklaşımla sunar.
@@ -24,41 +24,45 @@ function FooterThree() {
                 </div>
               </div>
 
-              {/* Sağ: Sadece iletişim */}
+              {/* Sağ: İletişim */}
               <div className="col-lg-7">
                 <div className="row g-5 justify-content-end">
                   <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                     <div className="single-nav-area-footer">
-                      <p className="parent">İletişim</p>
+                      <p className="parent" data-i18n="footer_contact_title">
+                        İletişim
+                      </p>
                       <ul>
                         <li>
-                          <span>E-posta: </span>
+                          <span data-i18n="footer_email_label">E-posta: </span>
                           <a href="mailto:info@ertastech.com">info@ertastech.com</a>
                         </li>
                         <li>
-                          <span>Telefon: </span>
+                          <span data-i18n="footer_phone_label">Telefon: </span>
                           <a href="tel:+905551112233">+90 555 111 22 33</a>
                         </li>
-                        
                       </ul>
                     </div>
                   </div>
 
-                  {/* istersen aynı alanda ikinci mail ekleyebilirsin */}
                   <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                     <div className="single-nav-area-footer">
-                      <p className="parent">Destek</p>
+                      <p className="parent" data-i18n="footer_support_title">
+                        Destek
+                      </p>
                       <ul>
                         <li>
-                          <span>Teknik Destek: </span>
+                          <span data-i18n="footer_support_label">Teknik Destek: </span>
                           <a href="mailto:support@ertastech.com">support@ertastech.com</a>
                         </li>
                         <li>
-                          <span>Satış & Teklif: </span>
+                          <span data-i18n="footer_sales_label">Satış & Teklif: </span>
                           <a href="mailto:sales@ertastech.com">sales@ertastech.com</a>
                         </li>
                         <li>
-                          <Link href="/contact">İletişim Formu</Link>
+                          <Link href="/contact" data-i18n="footer_contact_form">
+                            İletişim Formu
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -78,29 +82,15 @@ function FooterThree() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="copyright-wrapper">
-                  <p>© 2026 Ertastech. Tüm hakları saklıdır.</p>
+                  <p data-i18n="footer_copyright">
+                    © 2026 Ertastech. Tüm hakları saklıdır.
+                  </p>
                   <div className="social-copyright-area">
                     <ul>
-                      <li>
-                        <Link href="/#">
-                          <i className="fa-brands fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/#">
-                          <i className="fa-brands fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/#">
-                          <i className="fa-brands fa-youtube" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/#">
-                          <i className="fa-brands fa-linkedin" />
-                        </Link>
-                      </li>
+                      
+                      
+                      
+                      
                     </ul>
                   </div>
                 </div>

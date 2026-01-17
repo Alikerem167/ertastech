@@ -11,7 +11,9 @@ function ServiceFive() {
           <div className="row">
             <div className="col-lg-12">
               <div className="title-style-4-center">
-                <h2 className="title">Başlıca Hizmetlerimiz</h2>
+                <h2 className="title" data-i18n="servicefive_title">
+                  Başlıca Hizmetlerimiz
+                </h2>
               </div>
             </div>
           </div>
@@ -23,7 +25,7 @@ function ServiceFive() {
                   <img src="assets/images/service/icons/22.svg" alt="service" />
                 </div>
                 <div className="info">
-                  <h4 className="title">Otomasyon</h4>
+                  <h4 className="title" data-i18n="servicefive_item_automation">Otomasyon</h4>
                   <ReactSVG src="assets/images/service/icons/13.svg" />
                 </div>
               </div>
@@ -35,7 +37,7 @@ function ServiceFive() {
                   <img src="assets/images/service/icons/23.svg" alt="service" />
                 </div>
                 <div className="info">
-                  <h4 className="title">Uygulama Çözümlemeleri</h4>
+                  <h4 className="title" data-i18n="servicefive_item_app_analysis">Uygulama Çözümlemeleri</h4>
                   <ReactSVG src="assets/images/service/icons/13.svg" />
                 </div>
               </div>
@@ -47,7 +49,7 @@ function ServiceFive() {
                   <img src="assets/images/service/icons/24.svg" alt="service" />
                 </div>
                 <div className="info">
-                  <h4 className="title">Siber Güvenlik</h4>
+                  <h4 className="title" data-i18n="servicefive_item_cybersecurity">Siber Güvenlik</h4>
                   <ReactSVG src="assets/images/service/icons/13.svg" />
                 </div>
               </div>
@@ -59,7 +61,7 @@ function ServiceFive() {
                   <img src="assets/images/service/icons/25.svg" alt="service" />
                 </div>
                 <div className="info">
-                  <h4 className="title">Technologies</h4>
+                  <h4 className="title" data-i18n="servicefive_item_technologies">Technologies</h4>
                   <ReactSVG src="assets/images/service/icons/13.svg" />
                 </div>
               </div>
@@ -71,7 +73,7 @@ function ServiceFive() {
                   <img src="assets/images/service/icons/26.svg" alt="service" />
                 </div>
                 <div className="info">
-                  <h4 className="title">Teknoloji Danışmanlığı</h4>
+                  <h4 className="title" data-i18n="servicefive_item_tech_consulting">Teknoloji Danışmanlığı</h4>
                   <ReactSVG src="assets/images/service/icons/13.svg" />
                 </div>
               </div>
@@ -83,7 +85,7 @@ function ServiceFive() {
                   <img src="assets/images/service/icons/27.svg" alt="service" />
                 </div>
                 <div className="info">
-                  <h4 className="title">Yazılım Geliştirme</h4>
+                  <h4 className="title" data-i18n="servicefive_item_software_dev">Yazılım Geliştirme</h4>
                   <ReactSVG src="assets/images/service/icons/13.svg" />
                 </div>
               </div>
@@ -95,7 +97,7 @@ function ServiceFive() {
                   <img src="assets/images/service/icons/28.svg" alt="service" />
                 </div>
                 <div className="info">
-                  <h4 className="title">Yapay Zeka Hizmetleri</h4>
+                  <h4 className="title" data-i18n="servicefive_item_ai_services">Yapay Zeka Hizmetleri</h4>
                   <ReactSVG src="assets/images/service/icons/13.svg" />
                 </div>
               </div>
@@ -107,7 +109,7 @@ function ServiceFive() {
                   <img src="assets/images/service/icons/29.svg" alt="service" />
                 </div>
                 <div className="info">
-                  <h4 className="title">Yönetim</h4>
+                  <h4 className="title" data-i18n="servicefive_item_management">Yönetim</h4>
                   <ReactSVG src="assets/images/service/icons/13.svg" />
                 </div>
               </div>
@@ -119,7 +121,7 @@ function ServiceFive() {
                   <img src="assets/images/service/icons/30.svg" alt="service" />
                 </div>
                 <div className="info">
-                  <h4 className="title">Teknoloji İnovasyonları</h4>
+                  <h4 className="title" data-i18n="servicefive_item_tech_innovations">Teknoloji İnovasyonları</h4>
                   <ReactSVG src="assets/images/service/icons/13.svg" />
                 </div>
               </div>

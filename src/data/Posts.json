@@ -1,179 +1,416 @@
 [
     {
   "id": 1,
-  "slug": "Future-of-cloud-computing1",
+  "slug": "future-of-cloud-computing",
   "image": "01.webp",
   "bannerImg": "/assets/images/blog/01.webp",
-  "category": "Business Solution",
-  "title": "Bulut Bilişim ile Ölçeklenebilir Web Uygulamaları: Geleceğe Hazır Altyapı Rehberi",
-  "descripTion": "Bulut bilişim, işletmelerin web uygulamalarını daha hızlı, güvenli ve ölçeklenebilir hale getirmesini sağlar. Modern bulut altyapıları; performans artışı, maliyet optimizasyonu ve kesintisiz hizmet sunumu için güçlü bir temel oluşturur.",
 
-  "subtitle": "Bulut Altyapı ile Performans, Güvenlik ve Esneklik Kazanın",
-  "content": [
-    "Bulut bilişim, web uygulamalarının ihtiyaçlara göre büyüyüp küçülebilmesini sağlayarak işletmelere esneklik kazandırır. Trafiğin arttığı dönemlerde otomatik ölçeklendirme ile performans korunur, düşük kullanımda ise kaynak tüketimi azaltılarak maliyet kontrolü sağlanır.",
-    "Kurumsal web uygulamalarında bulut tabanlı mimariler; yedeklilik, felaket kurtarma ve yüksek erişilebilirlik gibi kritik avantajlar sunar. Doğru yapılandırılmış bir altyapı sayesinde sistem kesintileri minimize edilir ve iş sürekliliği korunur.",
-    "Bulut çözümleri sadece sunucu taşımak değildir; doğru mimari ile loglama, izleme, güvenlik katmanları, CDN, cache ve veritabanı stratejileri birlikte planlanmalıdır. Böylece hem kullanıcı deneyimi iyileşir hem de uygulama daha güvenli hale gelir.",
-    "Günümüzde API tabanlı sistemler, mikro servis yaklaşımı ve konteyner teknolojileri (ör. Docker) bulut altyapılarla birlikte kullanıldığında sürdürülebilir bir yazılım ekosistemi oluşur. Bu yaklaşım, yeni özelliklerin daha hızlı geliştirilmesini ve sistemin daha kolay yönetilmesini sağlar."
-  ],
+  "category": {
+    "tr": "İş Çözümleri",
+    "en": "Business Solutions"
+  },
 
-  "faqTitle": "Bulut bilişim web uygulamalarına nasıl avantaj sağlar?",
-  "faqs": [
-    "Otomatik ölçeklendirme ile yoğun trafikte performansı korur.",
-    "Kaynak kullanımına göre maliyet optimizasyonu sağlar.",
-    "Yedeklilik ve felaket kurtarma ile iş sürekliliğini artırır.",
-    "CDN ve cache gibi katmanlarla hız ve kullanıcı deneyimini iyileştirir.",
-    "Güvenlik politikaları ile veri korumasını güçlendirir."
-  ],
+  "title": {
+    "tr": "Bulut Bilişim ile Ölçeklenebilir Web Uygulamaları: Geleceğe Hazır Altyapı Rehberi",
+    "en": "Scalable Web Applications with Cloud Computing: A Future-Ready Infrastructure Guide"
+  },
 
-  "tags": ["Cloud Computing", "Scalable Systems", "Web Applications", "Infrastructure"]
-},
+  "description": {
+    "tr": "Bulut bilişim, işletmelerin web uygulamalarını daha hızlı, güvenli ve ölçeklenebilir hale getirmesini sağlar. Modern bulut altyapıları; performans artışı, maliyet optimizasyonu ve kesintisiz hizmet sunumu için güçlü bir temel oluşturur.",
+    "en": "Cloud computing enables businesses to make their web applications faster, more secure, and scalable. Modern cloud infrastructures provide a strong foundation for improved performance, cost optimization, and uninterrupted service delivery."
+  },
 
-    {
-  "id": 2,
-  "slug": "UX-review-presentations",
-  "image": "02.webp",
-  "bannerImg": "/assets/images/blog/02.webp",
-  "category": "Business Solution",
-  "title": "İşletmeler İçin Otomasyon Çözümleri ile Dijital Süreçleri Güçlendirmek",
-  "descripTion": "İşletmeler için otomasyon çözümleri; zaman kaybını azaltan, insan hatasını minimuma indiren ve operasyonel verimliliği artıran dijital sistemler sunar. Doğru kurgulanan otomasyon yapıları, iş süreçlerini daha hızlı, kontrollü ve sürdürülebilir hale getirir.",
+  "subtitle": {
+    "tr": "Bulut Altyapı ile Performans, Güvenlik ve Esneklik Kazanın",
+    "en": "Gain Performance, Security, and Flexibility with Cloud Infrastructure"
+  },
 
-  "subtitle": "Tekrarlayan İşleri Otomatikleştirerek Zaman ve Maliyet Avantajı Sağlayın",
-  "content": [
-    "Otomasyon, işletmelerin manuel ve tekrarlayan iş yükünü azaltarak ekiplerin daha stratejik ve katma değerli işlere odaklanmasını sağlar. Teklif oluşturma, müşteri taleplerinin yönetimi, bildirim sistemleri, raporlama ve veri aktarımı gibi süreçler otomasyon ile çok daha hızlı ve hatasız şekilde yönetilebilir.",
-    "Doğru planlanmış bir otomasyon sistemi, insan hatalarını minimum seviyeye indirir ve iş akışlarının standart hale gelmesini sağlar. Bir müşteri talebinin otomatik olarak sisteme düşmesi, ilgili birimlere bildirim gönderilmesi ve sürecin kayıt altına alınması sayesinde kontrol edilebilir ve şeffaf bir operasyon yapısı oluşturulur.",
-    "Otomasyon çözümleri yalnızca hız kazandırmakla kalmaz, aynı zamanda işletmelere ölçülebilir veriler sunar. Gerçek zamanlı takip, performans analizi ve raporlama özellikleri sayesinde yöneticiler daha sağlıklı kararlar alabilir. Bu da uzun vadede maliyetleri düşüren ve rekabet avantajı sağlayan bir dijital yapı oluşturur.",
-    "Web tabanlı otomasyon sistemleri; CRM entegrasyonları, özel yönetim panelleri, API bağlantıları ve üçüncü parti yazılımlar ile uyumlu çalışacak şekilde geliştirilebilir. Bu sayede farklı departmanlar tek bir platform üzerinden senkronize biçimde hareket edebilir ve operasyonel kopukluklar ortadan kaldırılır."
-  ],
+  "content": {
+    "tr": [
+      "Bulut bilişim, web uygulamalarının ihtiyaçlara göre büyüyüp küçülebilmesini sağlayarak işletmelere esneklik kazandırır. Trafiğin arttığı dönemlerde otomatik ölçeklendirme ile performans korunur, düşük kullanımda ise kaynak tüketimi azaltılarak maliyet kontrolü sağlanır.",
+      "Kurumsal web uygulamalarında bulut tabanlı mimariler; yedeklilik, felaket kurtarma ve yüksek erişilebilirlik gibi kritik avantajlar sunar. Doğru yapılandırılmış bir altyapı sayesinde sistem kesintileri minimize edilir ve iş sürekliliği korunur.",
+      "Bulut çözümleri yalnızca sunucu taşımak değildir; doğru mimari ile loglama, izleme, güvenlik katmanları, CDN, cache ve veritabanı stratejileri birlikte planlanmalıdır. Böylece hem kullanıcı deneyimi iyileşir hem de uygulama daha güvenli hale gelir.",
+      "Günümüzde API tabanlı sistemler, mikro servis yaklaşımı ve konteyner teknolojileri (ör. Docker) bulut altyapılarla birlikte kullanıldığında sürdürülebilir bir yazılım ekosistemi oluşur. Bu yaklaşım, yeni özelliklerin daha hızlı geliştirilmesini ve sistemin daha kolay yönetilmesini sağlar."
+    ],
+    "en": [
+      "Cloud computing provides flexibility by allowing web applications to scale up or down based on demand. During high traffic periods, automatic scaling maintains performance, while resource usage is reduced during low demand to control costs.",
+      "In enterprise web applications, cloud-based architectures offer critical advantages such as redundancy, disaster recovery, and high availability. With a properly configured infrastructure, system downtime is minimized and business continuity is ensured.",
+      "Cloud solutions are not just about moving servers. Logging, monitoring, security layers, CDN, caching, and database strategies must be planned together with the right architecture. This improves both user experience and application security.",
+      "Today, API-based systems, microservices architecture, and container technologies (e.g., Docker) create a sustainable software ecosystem when combined with cloud infrastructure. This approach enables faster feature development and easier system management."
+    ]
+  },
 
-  "faqTitle": "Otomasyon çözümleri işletmelere ne kazandırır?",
-  "faqs": [
-    "Tekrarlayan iş yüklerini azaltarak zaman tasarrufu sağlar.",
-    "Manuel hataları minimize ederek süreç güvenliğini artırır.",
-    "Gerçek zamanlı veri takibi ve raporlama imkanı sunar.",
-    "Operasyonel maliyetleri düşürür ve verimliliği artırır.",
-    "İşletmelere sürdürülebilir ve ölçeklenebilir bir dijital altyapı kazandırır."
-  ],
+  "faqTitle": {
+    "tr": "Bulut bilişim web uygulamalarına nasıl avantaj sağlar?",
+    "en": "How does cloud computing benefit web applications?"
+  },
 
-  "tags": ["Automation", "Digital Transformation", "Business Solutions", "Web Applications"]
-},
+  "faqs": {
+    "tr": [
+      "Otomatik ölçeklendirme ile yoğun trafikte performansı korur.",
+      "Kaynak kullanımına göre maliyet optimizasyonu sağlar.",
+      "Yedeklilik ve felaket kurtarma ile iş sürekliliğini artırır.",
+      "CDN ve cache gibi katmanlarla hız ve kullanıcı deneyimini iyileştirir.",
+      "Güvenlik politikaları ile veri korumasını güçlendirir."
+    ],
+    "en": [
+      "Maintains performance during high traffic with automatic scaling.",
+      "Optimizes costs based on actual resource usage.",
+      "Improves business continuity through redundancy and disaster recovery.",
+      "Enhances speed and user experience with CDN and caching layers.",
+      "Strengthens data protection with advanced security policies."
+    ]
+  },
 
-    
-    {
-  "id": 3,
-  "slug": "protecting-your-business",
-  "title": "Protecting your business",
-  "author": "David Smith",
-  "bannerImg": "/assets/images/blog/03.webp",
-
-  "subtitle": "Özel Web Uygulamalarıyla Dijital Süreçlerinizi Güçlendirin",
-  "content": [
-    "ErtasTech olarak işletmelere özel, hızlı, güvenli ve ölçeklenebilir web uygulamaları geliştiriyoruz...",
-    "Geliştirdiğimiz web uygulamaları; performans, güvenlik ve kullanıcı deneyimi öncelikli olacak şekilde tasarlanır...",
-    "Veri odaklı mimariler ve güncel web yazılım trendleri doğrultusunda geliştirilen projelerimiz..."
-  ],
-
-  "faqTitle": "Web uygulamaları geleneksel iş süreçlerini nasıl dönüştürür?",
-  "faqs": [
-    "Dijital web projeleri işletmelerin verimliliğini nasıl artırır?",
-    "Gerçek zamanlı veri takibi sağlayan web uygulamaları nasıl çalışır?",
-    "Özel web yazılımları operasyonel süreçlere nasıl değer katar?"
-  ],
-
-  "tags": ["Services", "Business", "Growth"],
-
-  "authorCard": {
-    "image": "assets/images/testimonials/07.png",
-    "role": "Web Uygulama Geliştiricisi",
-    "name": "Ali Kerem Ertaş",
-    "bio": "Ali Kerem Ertaş, ErtasTech bünyesinde..."
+  "tags": {
+    "tr": ["Bulut Bilişim", "Ölçeklenebilir Sistemler", "Web Uygulamaları", "Altyapı"],
+    "en": ["Cloud Computing", "Scalable Systems", "Web Applications", "Infrastructure"]
   }
 },
 
+
+    {
+  "id": 2,
+  "slug": "automation-solutions-for-businesses",
+  "image": "02.webp",
+  "bannerImg": "/assets/images/blog/02.webp",
+
+  "category": {
+    "tr": "İş Çözümleri",
+    "en": "Business Solutions"
+  },
+
+  "title": {
+    "tr": "İşletmeler İçin Otomasyon Çözümleri ile Dijital Süreçleri Güçlendirmek",
+    "en": "Strengthening Digital Processes with Automation Solutions for Businesses"
+  },
+
+  "description": {
+    "tr": "İşletmeler için otomasyon çözümleri; zaman kaybını azaltan, insan hatasını minimuma indiren ve operasyonel verimliliği artıran dijital sistemler sunar. Doğru kurgulanan otomasyon yapıları, iş süreçlerini daha hızlı, kontrollü ve sürdürülebilir hale getirir.",
+    "en": "Automation solutions for businesses provide digital systems that reduce time loss, minimize human error, and increase operational efficiency. Well-designed automation structures make business processes faster, more controlled, and sustainable."
+  },
+
+  "subtitle": {
+    "tr": "Tekrarlayan İşleri Otomatikleştirerek Zaman ve Maliyet Avantajı Sağlayın",
+    "en": "Save Time and Reduce Costs by Automating Repetitive Tasks"
+  },
+
+  "content": {
+    "tr": [
+      "Otomasyon, işletmelerin manuel ve tekrarlayan iş yükünü azaltarak ekiplerin daha stratejik ve katma değerli işlere odaklanmasını sağlar. Teklif oluşturma, müşteri taleplerinin yönetimi, bildirim sistemleri ve raporlama gibi süreçler otomasyon ile çok daha hızlı ve hatasız şekilde yönetilebilir.",
+      "Doğru planlanmış bir otomasyon sistemi, insan hatalarını minimum seviyeye indirir ve iş akışlarının standart hale gelmesini sağlar. Süreçlerin otomatik olarak kayıt altına alınması, şeffaf ve kontrol edilebilir bir operasyon yapısı oluşturur.",
+      "Otomasyon çözümleri işletmelere yalnızca hız kazandırmakla kalmaz, aynı zamanda ölçülebilir veriler sunar. Gerçek zamanlı takip, performans analizi ve raporlama sayesinde yöneticiler daha sağlıklı kararlar alabilir.",
+      "Web tabanlı otomasyon sistemleri; CRM entegrasyonları, özel yönetim panelleri, API bağlantıları ve üçüncü parti yazılımlar ile uyumlu şekilde geliştirilebilir. Bu yapı, departmanlar arası senkronizasyonu artırır ve operasyonel kopuklukları ortadan kaldırır."
+    ],
+    "en": [
+      "Automation reduces manual and repetitive workloads, allowing teams to focus on more strategic and value-added tasks. Processes such as quotation generation, customer request management, notifications, and reporting can be handled faster and more accurately through automation.",
+      "A well-planned automation system minimizes human errors and standardizes workflows. Automatically recording processes creates a transparent and controllable operational structure.",
+      "Automation solutions not only increase speed but also provide measurable data for businesses. With real-time monitoring, performance analysis, and reporting, managers can make more informed decisions.",
+      "Web-based automation systems can be developed to integrate with CRM platforms, custom admin panels, API connections, and third-party software. This structure improves interdepartmental synchronization and eliminates operational inefficiencies."
+    ]
+  },
+
+  "faqTitle": {
+    "tr": "Otomasyon çözümleri işletmelere ne kazandırır?",
+    "en": "What benefits do automation solutions provide for businesses?"
+  },
+
+  "faqs": {
+    "tr": [
+      "Tekrarlayan iş yüklerini azaltarak zaman tasarrufu sağlar.",
+      "Manuel hataları minimize ederek süreç güvenliğini artırır.",
+      "Gerçek zamanlı veri takibi ve raporlama imkanı sunar.",
+      "Operasyonel maliyetleri düşürür ve verimliliği artırır.",
+      "İşletmelere sürdürülebilir ve ölçeklenebilir bir dijital altyapı kazandırır."
+    ],
+    "en": [
+      "Reduces repetitive workloads and saves time.",
+      "Minimizes manual errors and improves process reliability.",
+      "Provides real-time data tracking and reporting capabilities.",
+      "Lowers operational costs and increases efficiency.",
+      "Delivers a sustainable and scalable digital infrastructure for businesses."
+    ]
+  },
+
+  "tags": {
+    "tr": ["Otomasyon", "Dijital Dönüşüm", "İş Çözümleri", "Web Uygulamaları"],
+    "en": ["Automation", "Digital Transformation", "Business Solutions", "Web Applications"]
+  }
+},
+
+
+    
+   {
+  "id": 3,
+  "slug": "custom-web-applications-for-businesses",
+  "bannerImg": "/assets/images/blog/03.webp",
+
+  "category": {
+    "tr": "Hizmetler",
+    "en": "Services"
+  },
+
+  "title": {
+    "tr": "Özel Web Uygulamalarıyla Dijital Süreçlerinizi Güçlendirin",
+    "en": "Empower Your Digital Processes with Custom Web Applications"
+  },
+
+  "description": {
+    "tr": "Özel web uygulamaları, işletmelerin operasyonlarını dijitalleştirerek daha hızlı, kontrollü ve verimli hale getirir. İş ihtiyaçlarına göre geliştirilen web tabanlı yazılımlar, sürdürülebilir büyüme için güçlü bir altyapı sunar.",
+    "en": "Custom web applications digitalize business operations, making them faster, more controlled, and efficient. Web-based software tailored to business needs provides a strong foundation for sustainable growth."
+  },
+
+  "subtitle": {
+    "tr": "İşletmelere Özel Web Yazılımları ile Verimlilik ve Kontrol",
+    "en": "Efficiency and Control with Business-Specific Web Software"
+  },
+
+  "content": {
+    "tr": [
+      "ErtasTech olarak işletmelere özel, hızlı, güvenli ve ölçeklenebilir web uygulamaları geliştiriyoruz. Her proje, iş süreçleri detaylı analiz edilerek ve gerçek ihtiyaçlara göre planlanarak hayata geçirilir.",
+      "Geliştirdiğimiz web uygulamaları; performans, güvenlik ve kullanıcı deneyimi öncelikli olacak şekilde tasarlanır. Yetkilendirme, veri güvenliği, loglama ve izleme gibi kritik bileşenler yazılımın temelini oluşturur.",
+      "Veri odaklı mimariler ve güncel web yazılım trendleri doğrultusunda geliştirilen projelerimiz; işletmelere operasyonel hız, esneklik ve uzun vadeli sürdürülebilirlik kazandırır."
+    ],
+    "en": [
+      "At ErtasTech, we develop fast, secure, and scalable custom web applications tailored to businesses. Each project is planned based on a detailed analysis of business processes and real operational needs.",
+      "Our web applications are designed with a strong focus on performance, security, and user experience. Critical components such as authorization, data security, logging, and monitoring form the foundation of the software.",
+      "Projects developed with data-driven architectures and modern web development trends provide businesses with operational speed, flexibility, and long-term sustainability."
+    ]
+  },
+
+  "faqTitle": {
+    "tr": "Web uygulamaları geleneksel iş süreçlerini nasıl dönüştürür?",
+    "en": "How do web applications transform traditional business processes?"
+  },
+
+  "faqs": {
+    "tr": [
+      "Manuel süreçleri dijitalleştirerek iş akışlarını hızlandırır.",
+      "Gerçek zamanlı veri takibi ile daha kontrollü yönetim sağlar.",
+      "İşletmelere özel çözümlerle operasyonel verimliliği artırır."
+    ],
+    "en": [
+      "They digitalize manual processes and accelerate workflows.",
+      "Enable more controlled management through real-time data tracking.",
+      "Increase operational efficiency with business-specific solutions."
+    ]
+  },
+
+  "tags": {
+    "tr": ["Web Uygulamaları", "Özel Yazılım", "Dijital Süreçler", "İş Verimliliği"],
+    "en": ["Web Applications", "Custom Software", "Digital Processes", "Business Efficiency"]
+  }
+},
+
+
     {
   "id": 4,
-  "slug": "story-of-cloud-computing",
+  "slug": "evolution-of-cloud-computing",
   "image": "14.webp",
   "bannerImg": "/assets/images/blog/14.webp",
-  "category": "Business Solution",
-  "title": "Bulut Bilişimin Evrimi: Modern Web Altyapıları Nasıl Dönüştü?",
-  "descripTion": "Bulut bilişimin gelişimi, web uygulamalarının kurulum, yönetim ve ölçeklenebilirlik biçimini kökten değiştirdi. Günümüzde bulut tabanlı altyapılar, işletmelere esneklik ve hız kazandıran modern bir standart haline geldi.",
 
-  "subtitle": "Geleneksel Sunuculardan Bulut Tabanlı Sistemlere Geçişin Mantığı",
-  "content": [
-    "Geçmişte web projeleri fiziksel sunucular üzerinde kurulur, kapasite planlaması aylar öncesinden yapılırdı. Bu model; yüksek başlangıç maliyeti, zor yönetim ve büyüme dönemlerinde performans sorunları gibi dezavantajlar doğuruyordu.",
-    "Bulut bilişimin yaygınlaşmasıyla birlikte altyapılar daha esnek hale geldi. İhtiyaç duyulan kaynaklar saniyeler içinde sağlanabilir, sistemler bölgesel olarak dağıtılabilir ve yüksek erişilebilirlik daha kolay kurgulanabilir oldu.",
-    "Modern web uygulamalarında bulut; sadece barındırma değil, aynı zamanda güvenlik, izleme, loglama, veri yönetimi ve dağıtım süreçlerinin tamamını kapsayan bir ekosistem sunar. Bu ekosistem, geliştirme süreçlerini hızlandırır ve operasyon yükünü azaltır.",
-    "Bugün işletmeler; bulut tabanlı yönetim panelleri, API entegrasyonları ve otomasyon sistemleri ile operasyonlarını tek bir platformdan yönetebilir. Bu yaklaşım, dijital dönüşüm hedefleri için güçlü bir temel sağlar."
-  ],
+  "category": {
+    "tr": "İş Çözümleri",
+    "en": "Business Solutions"
+  },
 
-  "faqTitle": "Bulut bilişim neden modern web projelerinin standardı oldu?",
-  "faqs": [
-    "Hızlı kurulum ve esnek kaynak yönetimi sağlar.",
-    "Büyüme dönemlerinde ölçeklenebilirlik sunar.",
-    "Dağıtık mimarilerle yüksek erişilebilirlik sağlar.",
-    "Operasyonel yönetimi kolaylaştırır ve bakım yükünü azaltır.",
-    "Güvenlik ve veri yönetimi için kapsamlı araçlar sunar."
-  ],
+  "title": {
+    "tr": "Bulut Bilişimin Evrimi: Modern Web Altyapıları Nasıl Dönüştü?",
+    "en": "The Evolution of Cloud Computing: How Modern Web Infrastructures Have Transformed"
+  },
 
-  "tags": ["Cloud", "Digital Transformation", "Modern Architecture", "Web Infrastructure"]
+  "description": {
+    "tr": "Bulut bilişimin gelişimi, web uygulamalarının kurulum, yönetim ve ölçeklenebilirlik biçimini kökten değiştirdi. Günümüzde bulut tabanlı altyapılar, işletmelere esneklik ve hız kazandıran modern bir standart haline geldi.",
+    "en": "The evolution of cloud computing has fundamentally changed how web applications are deployed, managed, and scaled. Today, cloud-based infrastructures have become a modern standard that provides businesses with flexibility and speed."
+  },
+
+  "subtitle": {
+    "tr": "Geleneksel Sunuculardan Bulut Tabanlı Sistemlere Geçişin Mantığı",
+    "en": "The Logic Behind the Transition from Traditional Servers to Cloud-Based Systems"
+  },
+
+  "content": {
+    "tr": [
+      "Geçmişte web projeleri fiziksel sunucular üzerinde kurulur, kapasite planlaması aylar öncesinden yapılırdı. Bu model; yüksek başlangıç maliyeti, zor yönetim ve büyüme dönemlerinde performans sorunları gibi dezavantajlar doğuruyordu.",
+      "Bulut bilişimin yaygınlaşmasıyla birlikte altyapılar çok daha esnek hale geldi. İhtiyaç duyulan kaynaklar saniyeler içinde sağlanabilir, sistemler bölgesel olarak dağıtılabilir ve yüksek erişilebilirlik daha kolay kurgulanabilir oldu.",
+      "Modern web uygulamalarında bulut; sadece barındırma değil, aynı zamanda güvenlik, izleme, loglama, veri yönetimi ve dağıtım süreçlerinin tamamını kapsayan bir ekosistem sunar.",
+      "Günümüzde işletmeler; bulut tabanlı yönetim panelleri, API entegrasyonları ve otomasyon sistemleri sayesinde operasyonlarını tek bir platform üzerinden yönetebilir. Bu yaklaşım, dijital dönüşüm hedefleri için güçlü bir temel oluşturur."
+    ],
+    "en": [
+      "In the past, web projects were deployed on physical servers, and capacity planning was done months in advance. This model resulted in high initial costs, difficult management, and performance issues during growth periods.",
+      "With the widespread adoption of cloud computing, infrastructures have become far more flexible. Required resources can be provisioned within seconds, systems can be regionally distributed, and high availability can be designed more easily.",
+      "In modern web applications, the cloud offers more than just hosting. It provides an ecosystem that includes security, monitoring, logging, data management, and deployment processes.",
+      "Today, businesses can manage their operations from a single platform through cloud-based dashboards, API integrations, and automation systems. This approach creates a strong foundation for digital transformation goals."
+    ]
+  },
+
+  "faqTitle": {
+    "tr": "Bulut bilişim neden modern web projelerinin standardı oldu?",
+    "en": "Why has cloud computing become the standard for modern web projects?"
+  },
+
+  "faqs": {
+    "tr": [
+      "Hızlı kurulum ve esnek kaynak yönetimi sağlar.",
+      "Büyüme dönemlerinde yüksek ölçeklenebilirlik sunar.",
+      "Dağıtık mimarilerle yüksek erişilebilirlik sağlar.",
+      "Operasyonel yönetimi kolaylaştırır ve bakım yükünü azaltır.",
+      "Güvenlik ve veri yönetimi için kapsamlı araçlar sunar."
+    ],
+    "en": [
+      "Enables fast deployment and flexible resource management.",
+      "Provides high scalability during growth periods.",
+      "Ensures high availability through distributed architectures.",
+      "Simplifies operational management and reduces maintenance effort.",
+      "Offers comprehensive tools for security and data management."
+    ]
+  },
+
+  "tags": {
+    "tr": ["Bulut Bilişim", "Dijital Dönüşüm", "Modern Mimari", "Web Altyapıları"],
+    "en": ["Cloud Computing", "Digital Transformation", "Modern Architecture", "Web Infrastructure"]
+  }
 },
+
 
     {
   "id": 5,
-  "slug": "ui-ux-design-presentations",
+  "slug": "ui-ux-design-for-higher-conversion-rates",
   "image": "15.webp",
   "bannerImg": "/assets/images/blog/15.webp",
-  "category": "Business Solution",
-  "title": "UI/UX Tasarımı ile Dönüşüm Oranını Artırmak: Kullanıcı Deneyimi Stratejileri",
-  "descripTion": "UI/UX tasarımı, web siteleri ve web uygulamalarında kullanıcıların davranışını doğrudan etkiler. Doğru deneyim kurgusu; daha yüksek dönüşüm oranı, daha düşük terk etme ve daha güçlü marka algısı sağlar.",
 
-  "subtitle": "Kullanıcı Odaklı Arayüzlerle Daha Fazla Etkileşim ve Daha Fazla Satış",
-  "content": [
-    "İyi bir UI/UX, sadece ‘güzel görünmek’ değildir; kullanıcıyı hedefe götüren akıllı bir yol haritasıdır. Net hiyerarşi, doğru görsel dil ve tutarlı bileşenler sayesinde kullanıcılar sayfada kaybolmaz ve işlemlerini daha hızlı tamamlar.",
-    "Kullanıcı deneyimini güçlendiren temel unsurlar; hız, okunabilirlik, mobil uyumluluk ve erişilebilirliktir. Özellikle mobilde hızlı açılan, kolay gezinilen ve basit formlara sahip web uygulamaları dönüşüm oranını doğrudan artırır.",
-    "UI/UX çalışmaları veriyle beslendiğinde daha etkili sonuç verir. Isı haritaları, kullanıcı akışları, tıklama oranları ve A/B testleri ile tasarım kararları ölçülebilir hale gelir. Böylece ‘tahmin’ yerine ‘kanıt’ ile ilerlenir.",
-    "Kurumsal web siteleri ve yönetim panellerinde UX, çalışan verimliliğini bile artırır. Doğru tasarlanmış dashboard’lar, arama/filtreleme yapıları ve net bilgi sunumu; operasyonel süreçleri hızlandırır."
-  ],
+  "category": {
+    "tr": "İş Çözümleri",
+    "en": "Business Solutions"
+  },
 
-  "faqTitle": "UI/UX tasarımı işletmelere nasıl katkı sağlar?",
-  "faqs": [
-    "Kullanıcıların sayfada daha uzun süre kalmasını sağlar.",
-    "Terk etme oranını düşürerek dönüşümü artırır.",
-    "Mobil deneyimi iyileştirerek daha geniş kitleye ulaşır.",
-    "Güven veren tasarım ile marka algısını güçlendirir.",
-    "Veri odaklı optimizasyon ile sürekli iyileştirme sağlar."
-  ],
+  "title": {
+    "tr": "UI/UX Tasarımı ile Dönüşüm Oranını Artırmak: Kullanıcı Deneyimi Stratejileri",
+    "en": "Increasing Conversion Rates with UI/UX Design: User Experience Strategies"
+  },
 
-  "tags": ["UI UX", "User Experience", "Conversion Rate", "Web Design"]
+  "description": {
+    "tr": "UI/UX tasarımı, web siteleri ve web uygulamalarında kullanıcıların davranışını doğrudan etkiler. Doğru deneyim kurgusu; daha yüksek dönüşüm oranı, daha düşük terk etme ve daha güçlü marka algısı sağlar.",
+    "en": "UI/UX design directly influences user behavior on websites and web applications. A well-structured experience leads to higher conversion rates, lower bounce rates, and a stronger brand perception."
+  },
+
+  "subtitle": {
+    "tr": "Kullanıcı Odaklı Arayüzlerle Daha Fazla Etkileşim ve Daha Fazla Satış",
+    "en": "More Engagement and Higher Sales with User-Centered Interfaces"
+  },
+
+  "content": {
+    "tr": [
+      "İyi bir UI/UX tasarımı sadece estetik değildir; kullanıcıyı hedefe yönlendiren akıllı bir deneyim yolculuğudur. Net hiyerarşi, tutarlı görsel dil ve sezgisel bileşenler sayesinde kullanıcılar sayfada kaybolmaz.",
+      "Kullanıcı deneyimini güçlendiren temel faktörler arasında hız, okunabilirlik, mobil uyumluluk ve erişilebilirlik yer alır. Özellikle mobil cihazlarda hızlı açılan ve kolay gezilen arayüzler dönüşüm oranını doğrudan artırır.",
+      "Veriyle desteklenen UI/UX çalışmaları daha etkili sonuçlar üretir. Isı haritaları, kullanıcı akışları, tıklama oranları ve A/B testleri sayesinde tasarım kararları ölçülebilir hale gelir.",
+      "Kurumsal web siteleri ve yönetim panellerinde doğru UX kurgusu, yalnızca müşteri deneyimini değil çalışan verimliliğini de artırır. Net bilgi mimarisi ve kullanıcı dostu dashboard’lar operasyonel süreçleri hızlandırır."
+    ],
+    "en": [
+      "A good UI/UX design is not just about aesthetics; it is an intelligent user journey that guides users toward their goals. Clear hierarchy, consistent visual language, and intuitive components prevent users from getting lost on the page.",
+      "Key factors that strengthen user experience include speed, readability, mobile responsiveness, and accessibility. Interfaces that load quickly and are easy to navigate—especially on mobile devices—directly increase conversion rates.",
+      "UI/UX efforts supported by data produce more effective results. Heatmaps, user flows, click-through rates, and A/B tests make design decisions measurable and evidence-based.",
+      "In corporate websites and admin panels, well-designed UX improves not only customer experience but also employee productivity. Clear information architecture and user-friendly dashboards accelerate operational processes."
+    ]
+  },
+
+  "faqTitle": {
+    "tr": "UI/UX tasarımı işletmelere nasıl katkı sağlar?",
+    "en": "How does UI/UX design contribute to businesses?"
+  },
+
+  "faqs": {
+    "tr": [
+      "Kullanıcıların sayfada daha uzun süre kalmasını sağlar.",
+      "Terk etme oranını düşürerek dönüşümü artırır.",
+      "Mobil deneyimi iyileştirerek daha geniş kitlelere ulaşmayı sağlar.",
+      "Güven veren tasarım ile marka algısını güçlendirir.",
+      "Veri odaklı optimizasyon ile sürekli iyileştirme imkanı sunar."
+    ],
+    "en": [
+      "Encourages users to stay longer on the page.",
+      "Increases conversions by reducing bounce rates.",
+      "Improves mobile experience to reach a wider audience.",
+      "Strengthens brand perception with trustworthy design.",
+      "Enables continuous improvement through data-driven optimization."
+    ]
+  },
+
+  "tags": {
+    "tr": ["UI UX", "Kullanıcı Deneyimi", "Dönüşüm Oranı", "Web Tasarım"],
+    "en": ["UI UX", "User Experience", "Conversion Rate", "Web Design"]
+  }
 },
+
 
     {
   "id": 6,
-  "slug": "secure-your-Website",
+  "slug": "website-security-and-cyber-threat-prevention",
   "image": "16.webp",
   "bannerImg": "/assets/images/blog/16.webp",
-  "category": "Business Solution",
-  "title": "Web Sitesi Güvenliği: Veri Koruma ve Siber Tehditlere Karşı Önlemler",
-  "descripTion": "Web sitesi güvenliği, işletmelerin verilerini ve müşteri bilgilerini korumak için kritik bir gerekliliktir. Güvenli yazılım geliştirme, düzenli güncellemeler ve doğru yapılandırma ile siber saldırılara karşı güçlü bir savunma oluşturulabilir.",
 
-  "subtitle": "Güvenli Web Altyapısı ile Müşteri Verilerini ve Marka İtibarını Koruyun",
-  "content": [
-    "Web projelerinde güvenlik; SSL kullanmakla bitmez. Zayıf parola politikaları, güncel olmayan paketler, açık bırakılan admin panelleri ve yanlış sunucu ayarları; saldırıların en sık kullandığı giriş noktalarıdır. Bu yüzden güvenlik baştan planlanmalıdır.",
-    "Güvenli web uygulaması geliştirmede temel yaklaşım; yetkilendirme (authorization), kimlik doğrulama (authentication), input doğrulama ve loglama gibi katmanların birlikte ele alınmasıdır. SQL injection, XSS ve CSRF gibi yaygın saldırı türlerine karşı koruma sağlanmalıdır.",
-    "Düzenli bakım ve güncelleme, güvenliğin en kritik parçasıdır. Paket güncellemeleri, zafiyet taramaları ve erişim kayıtlarının izlenmesi ile sorunlar büyümeden fark edilir. Ayrıca yedekleme ve felaket kurtarma planı, iş sürekliliği için şarttır.",
-    "Kurumsal sistemlerde API güvenliği de çok önemlidir. Rate limiting, token yönetimi, güvenli anahtar saklama ve rol bazlı erişim kontrolleri; veri sızıntısını önlemek için standart hale getirilmelidir."
-  ],
+  "category": {
+    "tr": "İş Çözümleri",
+    "en": "Business Solutions"
+  },
 
-  "faqTitle": "Web sitesi ve web uygulaması güvenliği nasıl sağlanır?",
-  "faqs": [
-    "SSL/TLS, güçlü parola politikaları ve iki faktörlü doğrulama kullanın.",
-    "Input doğrulama yaparak XSS ve SQL injection riskini azaltın.",
-    "Paket ve sunucu güncellemelerini düzenli uygulayın.",
-    "Loglama, izleme ve zafiyet taraması ile riskleri erken tespit edin.",
-    "Yedekleme ve felaket kurtarma planı ile iş sürekliliğini garanti altına alın."
-  ],
+  "title": {
+    "tr": "Web Sitesi Güvenliği: Veri Koruma ve Siber Tehditlere Karşı Önlemler",
+    "en": "Website Security: Data Protection and Prevention Against Cyber Threats"
+  },
 
-  "tags": ["Web Security", "Cyber Security", "Data Protection", "Secure Development"]
+  "description": {
+    "tr": "Web sitesi güvenliği, işletmelerin verilerini ve müşteri bilgilerini korumak için kritik bir gerekliliktir. Güvenli yazılım geliştirme, düzenli güncellemeler ve doğru yapılandırma ile siber saldırılara karşı güçlü bir savunma oluşturulabilir.",
+    "en": "Website security is a critical requirement for protecting business data and customer information. With secure software development, regular updates, and proper configuration, a strong defense against cyberattacks can be established."
+  },
+
+  "subtitle": {
+    "tr": "Güvenli Web Altyapısı ile Müşteri Verilerini ve Marka İtibarını Koruyun",
+    "en": "Protect Customer Data and Brand Reputation with a Secure Web Infrastructure"
+  },
+
+  "content": {
+    "tr": [
+      "Web projelerinde güvenlik, yalnızca SSL kullanımıyla sınırlı değildir. Zayıf parola politikaları, güncel olmayan paketler, açık bırakılan yönetim panelleri ve hatalı sunucu ayarları saldırganlar için en yaygın giriş noktalarıdır.",
+      "Güvenli web uygulaması geliştirme yaklaşımı; kimlik doğrulama (authentication), yetkilendirme (authorization), input doğrulama ve loglama gibi katmanların birlikte ele alınmasını gerektirir. SQL injection, XSS ve CSRF gibi yaygın saldırı türlerine karşı koruma sağlanmalıdır.",
+      "Düzenli bakım ve güncelleme süreçleri, web güvenliğinin temel taşlarından biridir. Paket güncellemeleri, güvenlik taramaları ve erişim loglarının izlenmesi ile potansiyel riskler büyümeden tespit edilir.",
+      "Kurumsal sistemlerde API güvenliği de büyük önem taşır. Rate limiting, token yönetimi, güvenli anahtar saklama ve rol bazlı erişim kontrolleri veri sızıntılarını önlemek için standart hale getirilmelidir."
+    ],
+    "en": [
+      "Security in web projects goes beyond using SSL. Weak password policies, outdated packages, exposed admin panels, and misconfigured servers are among the most common entry points for attackers.",
+      "A secure web application development approach requires handling layers such as authentication, authorization, input validation, and logging together. Protection against common attack types like SQL injection, XSS, and CSRF must be ensured.",
+      "Regular maintenance and update processes are fundamental to web security. Package updates, vulnerability scans, and monitoring access logs help detect potential risks before they escalate.",
+      "API security is also critical in enterprise systems. Implementing rate limiting, token management, secure key storage, and role-based access controls is essential to prevent data breaches."
+    ]
+  },
+
+  "faqTitle": {
+    "tr": "Web sitesi ve web uygulaması güvenliği nasıl sağlanır?",
+    "en": "How can website and web application security be ensured?"
+  },
+
+  "faqs": {
+    "tr": [
+      "SSL/TLS kullanımı, güçlü parola politikaları ve iki faktörlü doğrulama uygulayın.",
+      "Input doğrulama ile XSS ve SQL injection risklerini azaltın.",
+      "Sunucu ve paket güncellemelerini düzenli olarak yapın.",
+      "Loglama, izleme ve zafiyet taramaları ile riskleri erken tespit edin.",
+      "Yedekleme ve felaket kurtarma planları ile iş sürekliliğini garanti altına alın."
+    ],
+    "en": [
+      "Use SSL/TLS, strong password policies, and two-factor authentication.",
+      "Reduce XSS and SQL injection risks through input validation.",
+      "Apply regular server and package updates.",
+      "Detect risks early with logging, monitoring, and vulnerability scanning.",
+      "Ensure business continuity with backup and disaster recovery plans."
+    ]
+  },
+
+  "tags": {
+    "tr": ["Web Güvenliği", "Siber Güvenlik", "Veri Koruma", "Güvenli Yazılım"],
+    "en": ["Web Security", "Cyber Security", "Data Protection", "Secure Development"]
+  }
 }
+
 
 ]

@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import HeaderTwo from "@/components/header/HeaderTwo";
 import BackToTop from "@/components/common/BackToTop";
@@ -25,14 +25,39 @@ export default function BlogDetails() {
 
   if (!blogPost) return <div>Post not found!</div>;
 
-  // --- fallbacks ---
-  const authorName = blogPost.authorName ?? blogPost.author ?? "";
-  const description = blogPost.description ?? blogPost.descripTion ?? "";
-  const subtitle = blogPost.subtitle ?? "";
-  const content = blogPost.content ?? null;
+  const getLang = () =>
+    typeof window === "undefined" ? "tr" : localStorage.getItem("lang") || "tr";
 
-  const faqs = Array.isArray(blogPost.faqs) ? blogPost.faqs : [];
-  const tags = Array.isArray(blogPost.tags) ? blogPost.tags : [];
+  const [lang, setLang] = useState(getLang);
+
+  useEffect(() => {
+    const onLangChange = () => setLang(getLang());
+    window.addEventListener("languageChanged", onLangChange);
+    return () => window.removeEventListener("languageChanged", onLangChange);
+  }, []);
+
+  const pick = (val) => {
+    if (!val) return "";
+    if (typeof val === "string") return val;
+    if (typeof val === "object") return val?.[lang] ?? val?.tr ?? val?.en ?? "";
+    return "";
+  };
+
+  const pickArr = (val) => {
+    if (!val) return [];
+    if (Array.isArray(val)) return val;
+    if (typeof val === "object") return val?.[lang] ?? val?.tr ?? val?.en ?? [];
+    return [];
+  };
+
+  // --- fallbacks (ARTIK pick/pickArr ile) ---
+  const authorName = blogPost.authorName ?? blogPost.author ?? "";
+  const description = pick(blogPost.description ?? blogPost.descripTion);
+  const subtitle = pick(blogPost.subtitle);
+  const contentArr = pickArr(blogPost.content); // içerik artık tr/en array olabilir
+
+  const faqs = pickArr(blogPost.faqs);
+  const tags = pickArr(blogPost.tags);
   const images = Array.isArray(blogPost.images) ? blogPost.images : [];
 
   const authorCard = blogPost.authorCard ?? null;
@@ -57,7 +82,8 @@ export default function BlogDetails() {
           <div className="row">
             <div className="col-lg-12">
               <div className="career-page-single-banner blog-page">
-                <h1 className="title">{blogPost.title}</h1>
+                {/* ✅ FIX */}
+                <h1 className="title">{pick(blogPost.title)}</h1>
               </div>
             </div>
           </div>
@@ -71,7 +97,8 @@ export default function BlogDetails() {
             <div className="col-xl-8 col-md-12 col-sm-12 col-12">
               <div className="blog-single-post-listing details mb--0">
                 <div className="thumbnail">
-                  <img src={blogPost.bannerImg} alt={blogPost.title} />
+                  {/* ✅ FIX */}
+                  <img src={blogPost.bannerImg} alt={pick(blogPost.title)} />
                 </div>
 
                 <div className="blog-listing-content">
@@ -86,32 +113,38 @@ export default function BlogDetails() {
                   </div>
 
                   {/* subtitle */}
-                  {subtitle && <h3 className="title animated fadeIn">{subtitle}</h3>}
+                  {subtitle && (
+                    <h3 className="title animated fadeIn">{subtitle}</h3>
+                  )}
 
                   {/* description */}
                   {description && <p className="disc para-1">{description}</p>}
 
                   {/* content (array -> paragraphs) */}
-                  {Array.isArray(content) ? (
-                    content.map((p, i) => (
-                      <p className="disc" key={i}>
-                        {p}
-                      </p>
-                    ))
-                  ) : content ? (
-                    <p className="disc">{content}</p>
-                  ) : null}
+                  {contentArr.length > 0
+                    ? contentArr.map((p, i) => (
+                        <p className="disc" key={i}>
+                          {p}
+                        </p>
+                      ))
+                    : null}
 
-                  {/* optional quote */}
-                  {(blogPost.quote || blogPost.quoteAuthor || blogPost.authorRole) && (
+                  {/* optional quote (bunlar sende yoksa boş geçer) */}
+                  {(blogPost.quote ||
+                    blogPost.quoteAuthor ||
+                    blogPost.authorRole) && (
                     <div className="rts-quote-area text-center">
-                      {blogPost.quote && <h5 className="title">{blogPost.quote}</h5>}
+                      {blogPost.quote && (
+                        <h5 className="title">{pick(blogPost.quote)}</h5>
+                      )}
                       {blogPost.quoteAuthor && (
                         <a href="#" className="name">
-                          {blogPost.quoteAuthor}
+                          {pick(blogPost.quoteAuthor)}
                         </a>
                       )}
-                      {blogPost.authorRole && <span>{blogPost.authorRole}</span>}
+                      {blogPost.authorRole && (
+                        <span>{pick(blogPost.authorRole)}</span>
+                      )}
                     </div>
                   )}
 
@@ -130,8 +163,11 @@ export default function BlogDetails() {
 
                   {/* FAQ / checklist */}
                   {blogPost.faqTitle && (
-                    <h4 className="title mt--40 mt_sm--20">{blogPost.faqTitle}</h4>
+                    <h4 className="title mt--40 mt_sm--20">
+                      {pick(blogPost.faqTitle)}
+                    </h4>
                   )}
+
                   {faqs.length > 0 && (
                     <div className="check-area-details">
                       {faqs.map((q, i) => (
@@ -159,10 +195,18 @@ export default function BlogDetails() {
                     <div className="col-lg-6 col-md-12">
                       <div className="details-share">
                         <h6>Share:</h6>
-                        <button><i className="fab fa-facebook-f" /></button>
-                        <button><i className="fab fa-twitter" /></button>
-                        <button><i className="fab fa-instagram" /></button>
-                        <button><i className="fab fa-linkedin-in" /></button>
+                        <button>
+                          <i className="fab fa-facebook-f" />
+                        </button>
+                        <button>
+                          <i className="fab fa-twitter" />
+                        </button>
+                        <button>
+                          <i className="fab fa-instagram" />
+                        </button>
+                        <button>
+                          <i className="fab fa-linkedin-in" />
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -172,13 +216,20 @@ export default function BlogDetails() {
                     <div className="author-area">
                       {authorCard.image && (
                         <div className="thumbnail details mb_sm--15">
-                          <img src={authorCard.image} alt={authorCard.name || "author"} />
+                          <img
+                            src={authorCard.image}
+                            alt={authorCard.name || "author"}
+                          />
                         </div>
                       )}
                       <div className="author-details team">
-                        {authorCard.role && <span className="desig">{authorCard.role}</span>}
+                        {authorCard.role && (
+                          <span className="desig">{authorCard.role}</span>
+                        )}
                         {authorCard.name && <h5>{authorCard.name}</h5>}
-                        {authorCard.bio && <p className="disc">{authorCard.bio}</p>}
+                        {authorCard.bio && (
+                          <p className="disc">{authorCard.bio}</p>
+                        )}
                       </div>
                     </div>
                   )}
@@ -197,7 +248,9 @@ export default function BlogDetails() {
 
                   {/* form */}
                   <div className="replay-area-details">
-                    <h4 className="title">Geri Dönüşleriniz Bizim İçin Önemlidir</h4>
+                    <h4 className="title">
+                      Geri Dönüşleriniz Bizim İçin Önemlidir
+                    </h4>
                     <form id="comment-form" onSubmit={handleSubmit}>
                       <div className="row g-4">
                         <div className="col-lg-6">
@@ -244,12 +297,11 @@ export default function BlogDetails() {
                       </div>
                     </form>
                   </div>
-
                 </div>
               </div>
             </div>
 
-            {/* RIGHT SIDEBAR (şimdilik sabit kalsın ya da sonra data’ya bağlarız) */}
+            {/* RIGHT SIDEBAR */}
             <div className="col-xl-4 col-md-12 col-sm-12 col-12 pd-control-bg--40">
               <div className="rts-single-wized search">
                 <div className="wized-header">
@@ -257,14 +309,19 @@ export default function BlogDetails() {
                 </div>
                 <div className="wized-body">
                   <div className="rts-search-wrapper">
-                    <input className="Search" type="text" placeholder="Enter Keyword" />
-                    <button><i className="fal fa-search" /></button>
+                    <input
+                      className="Search"
+                      type="text"
+                      placeholder="Enter Keyword"
+                    />
+                    <button>
+                      <i className="fal fa-search" />
+                    </button>
                   </div>
                 </div>
               </div>
               {/* istersen burayı da Posts.json’dan besleriz */}
             </div>
-
           </div>
         </div>
       </div>

@@ -12,7 +12,9 @@ function CaseFive() {
           <div className="row">
             <div className="col-lg-12">
               <div className="title-style-4-center">
-                <h2 className="title">Referanslarımız</h2>
+                <h2 className="title" data-i18n="casefive_title">
+                  Referanslarımız
+                </h2>
               </div>
             </div>
           </div>
@@ -29,11 +31,12 @@ function CaseFive() {
                   <img src="assets/images/case-studies/uygun.png" alt="image" />
                 </a>
                 <div className="inner-content">
-                  <span>Ticari Web Sitesi</span>
+                  <span data-i18n="casefive_item1_type">Ticari Web Sitesi</span>
                   <a href="/case-studies-single">
-                    <h3 className="title">Uygun Temizlik</h3>
+                    <h3 className="title" data-i18n="casefive_item1_title">
+                      Uygun Temizlik
+                    </h3>
                   </a>
-                  {/* View case study kaldırıldı */}
                 </div>
               </div>
             </div>
@@ -49,11 +52,14 @@ function CaseFive() {
                   <img src="assets/images/case-studies/12.webp" alt="image" />
                 </a>
                 <div className="inner-content">
-                  <span>Shopify temelli ticaret sitesi</span>
+                  <span data-i18n="casefive_item2_type">
+                    Shopify temelli ticaret sitesi
+                  </span>
                   <a href="/case-studies-single">
-                    <h3 className="title">Bameman</h3>
+                    <h3 className="title" data-i18n="casefive_item2_title">
+                      Bameman
+                    </h3>
                   </a>
-                  {/* View case study kaldırıldı */}
                 </div>
               </div>
             </div>
@@ -69,11 +75,12 @@ function CaseFive() {
                   <img src="assets/images/case-studies/13.webp" alt="image" />
                 </a>
                 <div className="inner-content">
-                  <span>Otomasyon</span>
+                  <span data-i18n="casefive_item3_type">Otomasyon</span>
                   <a href="/case-studies-single">
-                    <h3 className="title">X</h3>
+                    <h3 className="title" data-i18n="casefive_item3_title">
+                      X
+                    </h3>
                   </a>
-                  {/* View case study kaldırıldı */}
                 </div>
               </div>
             </div>
@@ -89,11 +96,12 @@ function CaseFive() {
                   <img src="assets/images/case-studies/14.webp" alt="image" />
                 </a>
                 <div className="inner-content">
-                  <span>Siber Güvenlik</span>
+                  <span data-i18n="casefive_item4_type">Siber Güvenlik</span>
                   <a href="/case-studies-single">
-                    <h3 className="title">X</h3>
+                    <h3 className="title" data-i18n="casefive_item4_title">
+                      X
+                    </h3>
                   </a>
-                  {/* View case study kaldırıldı */}
                 </div>
               </div>
             </div>
@@ -101,7 +109,11 @@ function CaseFive() {
 
           <div className="row mt--60">
             <div className="col-lg-12">
-              <a href="/case-studies" className="rts-btn btn-border more-project-btn">
+              <a
+                href="/case-studies"
+                className="rts-btn btn-border more-project-btn"
+                data-i18n="casefive_more_btn"
+              >
                 Daha fazlası için tıklayın
                 <img src="assets/images/service/icons/13.svg" alt="arrow" />
               </a>

@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import { ReactSVG } from 'react-svg';
 import "aos/dist/aos.css";
+
 function BannerFour() {
     useEffect(() => {
         AOS.init({
@@ -11,9 +12,9 @@ function BannerFour() {
             once: true,
         });
     }, []);
+
     return (
         <div>
-
             {/* rts banner four start */}
             <div className="banner-four-area banner-four-bg rts-section-gap jarallax">
                 <div className="container">
@@ -22,35 +23,38 @@ function BannerFour() {
                             <div className="banner-four-wrapper">
                                 <div className="inner-left">
                                     <h1
-                                        className="title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                                        className="title"
+                                        data-aos="fade-up"
+                                        data-aos-delay="100"
+                                        data-aos-duration="1000"
+                                        data-i18n="bannerfour_title"
+                                    >
                                         Biz Kimiz?
                                     </h1>
+
                                     <p
-                                        className="disc" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"
+                                        className="disc"
+                                        data-aos="fade-up"
+                                        data-aos-delay="300"
+                                        data-aos-duration="1000"
+                                        data-i18n="bannerfour_desc"
                                     >
                                         Ertastech olarak, sorunlarınızı çözmek için yenilikçi ve özelleştirilmiş yazılım çözümleri sunuyoruz. Beraberinde ise hizmet verdiğimiz alanlarda uzman ekibimizle problemlerinizi yüksek başarı ile çözümlüyor ve mutluluğunuzu amaçlıyoruz.
                                     </p>
                                 </div>
-                                <div
-                                    className="right-inner-button" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"
-                                >
-                                    <a href="contact.html">
-                                        <img src="assets/images/service/icons/04.png" alt="img" />
-                                    </a>
-                                </div>
+
+                                
+                                
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div className="shape wow toBottomLeft">
                     <img src="assets/images/banner/01.png" alt="banner" />
                 </div>
-                {/* <div className='bg_image-b-4'>
-                <img src="assets/images/banner/04.webp" alt="banner" />
-            </div> */}
             </div>
             {/* rts banner four end */}
-
         </div>
     )
 }
