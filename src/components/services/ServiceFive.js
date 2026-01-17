@@ -61,7 +61,7 @@ function ServiceFive() {
                   <img src="assets/images/service/icons/25.svg" alt="service" />
                 </div>
                 <div className="info">
-                  <h4 className="title" data-i18n="servicefive_item_technologies">Technologies</h4>
+                  <h4 className="title" data-i18n="servicefive_item_technologies">Dijital Dönüşüm</h4>
                   <ReactSVG src="assets/images/service/icons/13.svg" />
                 </div>
               </div>
@@ -73,7 +73,7 @@ function ServiceFive() {
                   <img src="assets/images/service/icons/26.svg" alt="service" />
                 </div>
                 <div className="info">
-                  <h4 className="title" data-i18n="servicefive_item_tech_consulting">Teknoloji Danışmanlığı</h4>
+                  <h4 className="title" data-i18n="servicefive_item_tech_consulting">Sistem Danışmanlığı</h4>
                   <ReactSVG src="assets/images/service/icons/13.svg" />
                 </div>
               </div>
@@ -109,7 +109,7 @@ function ServiceFive() {
                   <img src="assets/images/service/icons/29.svg" alt="service" />
                 </div>
                 <div className="info">
-                  <h4 className="title" data-i18n="servicefive_item_management">Yönetim</h4>
+                  <h4 className="title" data-i18n="servicefive_item_management"> Dijital Yönetim</h4>
                   <ReactSVG src="assets/images/service/icons/13.svg" />
                 </div>
               </div>
