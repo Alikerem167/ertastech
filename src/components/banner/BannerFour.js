@@ -29,7 +29,7 @@ function BannerFour() {
                                         data-aos-duration="1000"
                                         data-i18n="bannerfour_title"
                                     >
-                                        Biz Kimiz?
+                                        Ertas Tech
                                     </h1>
 
                                     <p
@@ -39,7 +39,7 @@ function BannerFour() {
                                         data-aos-duration="1000"
                                         data-i18n="bannerfour_desc"
                                     >
-                                        Ertastech olarak, sorunlarınızı çözmek için yenilikçi ve özelleştirilmiş yazılım çözümleri sunuyoruz. Beraberinde ise hizmet verdiğimiz alanlarda uzman ekibimizle problemlerinizi yüksek başarı ile çözümlüyor ve mutluluğunuzu amaçlıyoruz.
+                                        Sorunlarınızı çözmek için yenilikçi ve özelleştirilmiş yazılım çözümleri sunuyoruz. Beraberinde ise hizmet verdiğimiz alanlarda uzman ekibimizle problemlerinizi yüksek başarı ile çözümlüyor ve mutluluğunuzu amaçlıyoruz.
                                     </p>
                                 </div>
 
